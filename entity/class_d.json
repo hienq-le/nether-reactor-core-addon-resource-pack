@@ -1,0 +1,46 @@
+{
+    "format_version": "1.10.0",
+    "minecraft:client_entity": {
+      "description": {
+        "identifier": minecraft:class_d",
+        "materials": {
+          "default": "npc"
+        },
+        "textures": {
+          "classd1": "textures/entity/class_d",
+          "classd2": "textures/entity/class_d2",
+          "classd3": "textures/entity/class_d3",
+          "classd4": "textures/entity/class_d4",
+          "classd5": "textures/entity/class_d5"
+        },
+        "geometry": {
+          "default": "geometry.entity_humanoid_male"
+        },
+        "animations": {
+          "move": "animation.entity_base.moving",
+          "attacking": "animation.entity_class_d.attacking",
+          "general": "animation.entity_class_d.general",
+
+          "look_at_target": "animation.common.look_at_target",
+          "attack": "controller.animation.common_lc.attacking"
+        },
+        "scripts": {
+          "animate": [
+            "general",
+            "look_at_target",
+            {
+              "move": "query.modified_move_speed"
+            }
+          ]
+        },
+        "render_controllers": [
+          "controller.render.class_d"
+        ],
+        "enable_attachables": true,
+        "spawn_egg": {
+          "base_color": "#F59E2F",
+          "overlay_color": "#5F5F5F"
+        }
+      }
+    }
+  }

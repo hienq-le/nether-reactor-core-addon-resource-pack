@@ -1,0 +1,44 @@
+{
+    "format_version": "1.10.0",
+    "minecraft:client_entity": {
+      "description": {
+        "identifier": minecraft:nurse",
+        "materials": {
+          "default": "npc"
+        },
+        "textures": {
+          "nurse1": "textures/entity/nurse1",
+          "nurse2": "textures/entity/nurse2",
+          "nurse3": "textures/entity/nurse3"
+        },
+        "geometry": {
+          "default": "geometry.entity_humanoid_female"
+        },
+        "animations": {
+          "move": "animation.entity_base.moving",
+          "attacking": "animation.entity_class_d.attacking",
+          "general": "animation.entity_class_d.general",
+
+          "look_at_target": "animation.common.look_at_target",
+          "attack": "controller.animation.common_lc.attacking"
+        },
+        "scripts": {
+          "animate": [
+            "general",
+            "look_at_target",
+            {
+              "move": "query.modified_move_speed"
+            }
+          ]
+        },
+        "render_controllers": [
+          "controller.render.nurse"
+        ],
+        "enable_attachables": true,
+        "spawn_egg": {
+          "base_color": "#FCFCFC",
+          "overlay_color": "#ED1717"
+        }
+      }
+    }
+  }
