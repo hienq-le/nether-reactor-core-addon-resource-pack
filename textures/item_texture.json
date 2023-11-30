@@ -1,0 +1,56 @@
+{
+    "resource_pack_name": "vanilla",
+    "texture_name": "atlas.items",
+    "texture_data": {
+        "paradox_spawn_egg": {
+            "textures": [
+                "textures/items/eggs/corpse1",
+                "textures/items/eggs/scp939",
+                "textures/items/eggs/facing",
+                "textures/items/eggs/button",
+                "textures/items/eggs/scp457",
+                "textures/items/eggs/cardreader",
+                "textures/items/eggs/scp682",
+                "textures/items/eggs/scp096",
+                "textures/items/eggs/scp173",
+                "textures/items/eggs/scp106",
+                "textures/items/eggs/scp008victim",
+                "textures/items/eggs/scp049",
+                "textures/items/eggs/scp1048",
+                "textures/items/eggs/scp058",
+                "textures/items/eggs/scp553",
+                "textures/items/eggs/scp1000",
+                "textures/items/eggs/scp093",
+                "textures/items/eggs/lackedcoronet45",
+                "textures/items/eggs/scp999",
+                "textures/items/eggs/scp529",
+                "textures/items/eggs/scp247", //20
+                "textures/items/eggs/scp650",
+                "textures/items/eggs/scp029",
+                "textures/items/eggs/rmt_cont_receiver",
+                "textures/items/eggs/scp053",
+                "textures/items/eggs/ntf_team",
+                "textures/items/eggs/scp131",
+                "textures/items/eggs/scp250",
+                "textures/items/eggs/scp1507",
+                "textures/items/eggs/scp019",
+                "textures/items/eggs/scp354", //30
+                "textures/items/eggs/minigun",
+                "textures/items/eggs/scp3199",
+                "textures/items/eggs/scp966",
+                "textures/items/eggs/scp610",
+                "textures/items/eggs/scp280",
+                "textures/items/eggs/apache",
+                "textures/items/eggs/scp079",
+                "textures/items/eggs/scp323",
+                "textures/items/eggs/door_cont_remover",
+                "textures/items/eggs/side_changer", //40
+                "textures/items/eggs/electrical_lever",
+                "textures/items/eggs/scp610_boss",
+                "textures/items/eggs/scp939_boss",
+                "textures/items/eggs/classd_with_eq",
+                "textures/items/eggs/scp076_2"
+            ]
+        }
+    }
+}

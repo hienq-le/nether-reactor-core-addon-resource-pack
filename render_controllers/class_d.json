@@ -1,0 +1,18 @@
+{
+    "format_version": "1.8.0",
+    "render_controllers": {
+        "controller.render.class_d": {
+            "arrays": {
+                "textures": {
+                    "Array.skins": ["Texture.classd1", "Texture.classd2", "Texture.classd3", "Texture.classd4", "Texture.classd5"]
+                }
+            },
+            "geometry": "Geometry.default",
+            "materials": [{
+                    "*": "Material.default"
+                }
+            ],
+            "textures": ["Array.skins[query.variant]"]
+        }
+    }
+}

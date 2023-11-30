@@ -1,0 +1,20 @@
+{
+  "format_version": "1.8.0",
+  "render_controllers": {
+    "controller.render.iron_golem": {
+      "arrays": {
+        "textures": {
+          "Array.health": [
+            "Texture.default",
+            "Texture.crack1",
+            "Texture.crack2",
+            "Texture.crack3"
+          ]
+        }
+      },
+      "geometry": "Geometry.default",
+      "materials": [ { "*": "Material.default" } ],
+      "textures": [ "Array.health[variable.health_index]" ]
+    }
+  }
+}
