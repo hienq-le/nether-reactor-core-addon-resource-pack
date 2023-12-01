@@ -7,11 +7,7 @@
           "default": "npc"
         },
         "textures": {
-          "classd1": "textures/entity/class_d",
-          "classd2": "textures/entity/class_d2",
-          "classd3": "textures/entity/class_d3",
-          "classd4": "textures/entity/class_d4",
-          "classd5": "textures/entity/class_d5"
+          "default": "textures/entity/class_d3"
         },
         "geometry": {
           "default": "geometry.entity_humanoid_male"
