@@ -1,7 +1,7 @@
 {
   "format_version": 2,
   "header": {
-    "description": "Add-on (RP) by §2Hien Q Le.\nAdd crafting recipes of Glowing Obsidian and Nether Reactor Core.\nAlso fix most of the Minecraft Bedrock 1.20.50+ unresolved bugs.\nIf you want to experience Minecraft 1.21 Update Features, please turn on the §eHoliday Creator Features, Update 1.21.",
+    "description": "Add-on (RP) by §2Hien Q Le.\nAdd crafting recipes of Glowing Obsidian and Nether Reactor Core.\nAlso fix most of the Minecraft Bedrock 1.20.50+ unresolved bugs.\nIf you want to experience Minecraft 1.21 Update Features, please turn on the §eUpdate 1.21.",
     "name": "Nether Reactor Core Addon V2024.0 (Resource Pack)",
     "uuid": "62476623-39ef-4bf1-920f-e24614a2fb86",
     "version": [2024, 0, 0],
