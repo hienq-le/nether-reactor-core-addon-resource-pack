@@ -1,10 +1,3 @@
 tile.glowingobsidian.name=Glowing Obsidian
 tile.invisibleBedrock.name=Invisible Bedrock
 tile.stone_slab.wood.name=Fake Wooden Slab
-entity.mod12:class_d.name=D Class Personnel
-item.spawn_egg.entity.mod12:class_d.name=Spawn D-Class
-item.spawn_egg.entity.mod12:class_d_with_eq.name=Spawn D-Class with Equipment
-entity.mod12:class_d_female.name=Female D-Class
-item.spawn_egg.entity.mod12:class_d_female.name=Spawn Female D-Class
-entity.mod12:nurse.name=Nurse
-item.spawn_egg.entity.mod12:nurse.name=Spawn Nurse
