@@ -1283,6 +1283,48 @@
 				"pitch": 1
 			}
 		]
+	},
+	"drum.kick.edm_kick_510": {
+         "__use_legacy_max_distance" : "true",
+            "category": "music",
+         "max_distance" : null,
+         "min_distance" : null,
+		"sounds": [
+			{
+				"load_on_low_memory" : true,
+				"name": "sounds/drum/kick/edm_kick_510",
+				"volume": 1,
+				"pitch": 1
+			}
+		]
+	},
+	"drum.kick.edm_kick_511": {
+         "__use_legacy_max_distance" : "true",
+            "category": "music",
+         "max_distance" : null,
+         "min_distance" : null,
+		"sounds": [
+			{
+				"load_on_low_memory" : true,
+				"name": "sounds/drum/kick/edm_kick_511",
+				"volume": 1,
+				"pitch": 1
+			}
+		]
+	},
+	"drum.kick.edm_kick_512": {
+         "__use_legacy_max_distance" : "true",
+            "category": "music",
+         "max_distance" : null,
+         "min_distance" : null,
+		"sounds": [
+			{
+				"load_on_low_memory" : true,
+				"name": "sounds/drum/kick/edm_kick_512",
+				"volume": 1,
+				"pitch": 1
+			}
+		]
 	}
    }
 }
