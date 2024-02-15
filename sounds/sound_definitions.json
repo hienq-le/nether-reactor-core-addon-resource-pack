@@ -1325,6 +1325,20 @@
 				"pitch": 1
 			}
 		]
+	},
+	"drum.kick.edm_kick_513": {
+         "__use_legacy_max_distance" : "true",
+            "category": "music",
+         "max_distance" : null,
+         "min_distance" : null,
+		"sounds": [
+			{
+				"load_on_low_memory" : true,
+				"name": "sounds/drum/kick/edm_kick_513",
+				"volume": 1,
+				"pitch": 1
+			}
+		]
 	}
    }
 }
