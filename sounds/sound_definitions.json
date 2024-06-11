@@ -1,5 +1,5 @@
 {
-   "format_version" : "1.20.0",
+   "format_version" : "1.21.0",
    "sound_definitions" : {
       "item.trident.hit" : {
          "__use_legacy_max_distance" : "true",
@@ -549,27 +549,33 @@
             },
             {
                "load_on_low_memory" : true,
-               "name" : "sounds/music/game/bromeliad",
+               "name" : "sounds/music/game/featherfall",
                "stream" : true,
                "volume" : 0.40
             },
             {
                "load_on_low_memory" : true,
-               "name" : "sounds/music/game/echo_in_the_wind",
+               "name" : "sounds/music/game/komorebi",
+               "stream" : true,
+               "volume" : 0.80
+            },
+            {
+               "load_on_low_memory" : true,
+               "name" : "sounds/music/game/puzzlebox",
                "stream" : true,
                "volume" : 0.40
             },
             {
                "load_on_low_memory" : true,
-               "name" : "sounds/music/game/crescent_dunes",
+               "name" : "sounds/music/game/watcher",
                "stream" : true,
                "volume" : 0.40
             },
             {
                "load_on_low_memory" : true,
-               "name" : "sounds/music/game/a_familiar_room",
+               "name" : "sounds/music/game/yakusoku",
                "stream" : true,
-               "volume" : 0.40
+               "volume" : 0.80
             }
          ]
       },
@@ -623,6 +629,56 @@
                "stream" : true,
                "volume" : 0.50
             }
+	  ]
+      },
+      "music.game.trial_chambers" : {
+         "__use_legacy_max_distance" : "true",
+         "category" : "music",
+         "max_distance" : null,
+         "min_distance" : null,
+         "sounds" : [
+            {
+               "load_on_low_memory" : true,
+               "name" : "sounds/music/game/komorebi",
+               "stream" : true,
+               "volume" : 1.6
+            },
+            {
+               "load_on_low_memory" : true,
+               "name" : "sounds/music/game/puzzlebox",
+               "stream" : true,
+               "volume" : 0.8
+            },
+            {
+               "load_on_low_memory" : true,
+               "name" : "sounds/music/game/watcher",
+               "stream" : true,
+               "volume" : 0.8
+            },
+            {
+               "load_on_low_memory" : true,
+               "name" : "sounds/music/game/yakusoku",
+               "stream" : true,
+               "volume" : 1.6
+            },
+            {
+               "load_on_low_memory" : true,
+               "name" : "sounds/music/game/records/creator",
+               "stream" : true,
+               "volume" : 1
+            },
+            {
+               "load_on_low_memory" : true,
+               "name" : "sounds/music/game/records/creator_music_box",
+               "stream" : true,
+               "volume" : 1
+            },
+            {
+               "load_on_low_memory" : true,
+               "name" : "sounds/music/game/records/precipice",
+               "stream" : true,
+               "volume" : 1
+            },
 	  ]
       },
       "music.game.desert_pyramid" : {
