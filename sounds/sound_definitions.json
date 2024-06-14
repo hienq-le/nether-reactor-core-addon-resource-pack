@@ -573,6 +573,12 @@
             },
             {
                "load_on_low_memory" : true,
+               "name" : "sounds/music/game/pokopoko",
+               "stream" : true,
+               "volume" : 0.60
+            },
+            {
+               "load_on_low_memory" : true,
                "name" : "sounds/music/game/yakusoku",
                "stream" : true,
                "volume" : 0.80
@@ -639,6 +645,12 @@
          "sounds" : [
             {
                "load_on_low_memory" : true,
+               "name" : "sounds/music/game/featherfall",
+               "stream" : true,
+               "volume" : 0.8
+            },
+            {
+               "load_on_low_memory" : true,
                "name" : "sounds/music/game/komorebi",
                "stream" : true,
                "volume" : 1.6
@@ -654,6 +666,12 @@
                "name" : "sounds/music/game/watcher",
                "stream" : true,
                "volume" : 0.8
+            },
+            {
+               "load_on_low_memory" : true,
+               "name" : "sounds/music/game/pokopoko",
+               "stream" : true,
+               "volume" : 1.2
             },
             {
                "load_on_low_memory" : true,
@@ -731,27 +749,39 @@
          "sounds" : [
             {
                "load_on_low_memory" : true,
-               "name" : "sounds/music/game/bromeliad",
+               "name" : "sounds/music/game/featherfall",
                "stream" : true,
-               "volume" : 0.3
+               "volume" : 0.9
             },
             {
                "load_on_low_memory" : true,
-               "name" : "sounds/music/game/echo_in_the_wind",
+               "name" : "sounds/music/game/komorebi",
                "stream" : true,
-               "volume" : 0.3
+               "volume" : 0.9
             },
             {
                "load_on_low_memory" : true,
-               "name" : "sounds/music/game/crescent_dunes",
+               "name" : "sounds/music/game/puzzlebox",
                "stream" : true,
-               "volume" : 0.3
+               "volume" : 1
             },
             {
                "load_on_low_memory" : true,
-               "name" : "sounds/music/game/a_familiar_room",
+               "name" : "sounds/music/game/watcher",
                "stream" : true,
-               "volume" : 0.3
+               "volume" : 1
+            },
+            {
+               "load_on_low_memory" : true,
+               "name" : "sounds/music/game/pokopoko",
+               "stream" : true,
+               "volume" : 0.9
+            },
+            {
+               "load_on_low_memory" : true,
+               "name" : "sounds/music/game/yakusoku",
+               "stream" : true,
+               "volume" : 1
             },
             {
                "load_on_low_memory" : true,
