@@ -663,40 +663,58 @@
          "sounds" : [
             {
                "load_on_low_memory" : true,
+               "name" : "sounds/music/game/deeper",
+               "stream" : true,
+               "volume" : 1
+            },
+            {
+               "load_on_low_memory" : true,
+               "name" : "sounds/music/game/eld_unknown",
+               "stream" : true,
+               "volume" : 1
+            },
+            {
+               "load_on_low_memory" : true,
+               "name" : "sounds/music/game/endless",
+               "stream" : true,
+               "volume" : 1
+            },
+            {
+               "load_on_low_memory" : true,
                "name" : "sounds/music/game/featherfall",
                "stream" : true,
-               "volume" : 0.8
+               "volume" : 1
             },
             {
                "load_on_low_memory" : true,
                "name" : "sounds/music/game/komorebi",
                "stream" : true,
-               "volume" : 1.6
-            },
-            {
-               "load_on_low_memory" : true,
-               "name" : "sounds/music/game/puzzlebox",
-               "stream" : true,
-               "volume" : 0.8
-            },
-            {
-               "load_on_low_memory" : true,
-               "name" : "sounds/music/game/watcher",
-               "stream" : true,
-               "volume" : 0.8
+               "volume" : 1
             },
             {
                "load_on_low_memory" : true,
                "name" : "sounds/music/game/pokopoko",
                "stream" : true,
-               "volume" : 1.2
+               "volume" : 1
+            },
+            {
+               "load_on_low_memory" : true,
+               "name" : "sounds/music/game/puzzlebox",
+               "stream" : true,
+               "volume" : 1
+            },
+            {
+               "load_on_low_memory" : true,
+               "name" : "sounds/music/game/watcher",
+               "stream" : true,
+               "volume" : 1
             },
             {
                "load_on_low_memory" : true,
                "name" : "sounds/music/game/yakusoku",
                "stream" : true,
-               "volume" : 1.6
-            },
+               "volume" : 1
+            }
             {
                "load_on_low_memory" : true,
                "name" : "sounds/music/game/records/creator",
