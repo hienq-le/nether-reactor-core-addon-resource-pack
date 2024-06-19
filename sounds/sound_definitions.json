@@ -549,6 +549,24 @@
             },
             {
                "load_on_low_memory" : true,
+               "name" : "sounds/music/game/deeper",
+               "stream" : true,
+               "volume" : 0.55
+            },
+            {
+               "load_on_low_memory" : true,
+               "name" : "sounds/music/game/eld_unknown",
+               "stream" : true,
+               "volume" : 0.52
+            },
+            {
+               "load_on_low_memory" : true,
+               "name" : "sounds/music/game/endless",
+               "stream" : true,
+               "volume" : 0.58
+            },
+            {
+               "load_on_low_memory" : true,
                "name" : "sounds/music/game/featherfall",
                "stream" : true,
                "volume" : 0.40
@@ -561,6 +579,12 @@
             },
             {
                "load_on_low_memory" : true,
+               "name" : "sounds/music/game/pokopoko",
+               "stream" : true,
+               "volume" : 0.60
+            },
+            {
+               "load_on_low_memory" : true,
                "name" : "sounds/music/game/puzzlebox",
                "stream" : true,
                "volume" : 0.40
@@ -570,12 +594,6 @@
                "name" : "sounds/music/game/watcher",
                "stream" : true,
                "volume" : 0.40
-            },
-            {
-               "load_on_low_memory" : true,
-               "name" : "sounds/music/game/pokopoko",
-               "stream" : true,
-               "volume" : 0.60
             },
             {
                "load_on_low_memory" : true,
@@ -696,7 +714,7 @@
                "name" : "sounds/music/game/records/precipice",
                "stream" : true,
                "volume" : 1
-            },
+            }
 	  ]
       },
       "music.game.desert_pyramid" : {
@@ -740,80 +758,6 @@
                "volume" : 0.45
             }
 	  ]
-      },
-      "music.menu" : {
-         "__use_legacy_max_distance" : "true",
-         "category" : "music",
-         "max_distance" : null,
-         "min_distance" : null,
-         "sounds" : [
-            {
-               "load_on_low_memory" : true,
-               "name" : "sounds/music/game/featherfall",
-               "stream" : true,
-               "volume" : 0.9
-            },
-            {
-               "load_on_low_memory" : true,
-               "name" : "sounds/music/game/komorebi",
-               "stream" : true,
-               "volume" : 0.9
-            },
-            {
-               "load_on_low_memory" : true,
-               "name" : "sounds/music/game/puzzlebox",
-               "stream" : true,
-               "volume" : 1
-            },
-            {
-               "load_on_low_memory" : true,
-               "name" : "sounds/music/game/watcher",
-               "stream" : true,
-               "volume" : 1
-            },
-            {
-               "load_on_low_memory" : true,
-               "name" : "sounds/music/game/pokopoko",
-               "stream" : true,
-               "volume" : 0.9
-            },
-            {
-               "load_on_low_memory" : true,
-               "name" : "sounds/music/game/yakusoku",
-               "stream" : true,
-               "volume" : 1
-            },
-            {
-               "load_on_low_memory" : true,
-               "name" : "sounds/music/menu/menu1",
-               "stream" : true,
-               "volume" : 0.30
-            },
-            {
-               "load_on_low_memory" : true,
-               "name" : "sounds/music/menu/menu2",
-               "stream" : true,
-               "volume" : 0.30
-            },
-            {
-               "load_on_low_memory" : true,
-               "name" : "sounds/music/menu/menu3",
-               "stream" : true,
-               "volume" : 0.30
-            },
-            {
-               "load_on_low_memory" : true,
-               "name" : "sounds/music/menu/menu4",
-               "stream" : true,
-               "volume" : 0.30
-            },
-            {
-               "load_on_low_memory" : true,
-               "name" : "sounds/music/game/water/axolotl",
-               "stream" : true,
-               "volume" : 0.30
-            }
-         ]
       },
       "record.11" : {
          "__use_legacy_max_distance" : "true",
