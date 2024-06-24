@@ -996,6 +996,17 @@
             }
          ]
       },
+      "vault.reject_rewarded_player" : {
+         "__use_legacy_max_distance" : "true",
+         "category" : "block",
+         "max_distance" : null,
+         "min_distance" : null,
+         "sounds" : [
+            {
+               "name" : "sounds/block/vault/reject_rewarded_player"
+            }
+         ]
+      },
 	"drum.kick.edm_bell_1": {
          "__use_legacy_max_distance" : "true",
             "category": "music",
