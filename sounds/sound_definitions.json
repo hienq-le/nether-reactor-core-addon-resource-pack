@@ -1,6 +1,30 @@
 {
-   "format_version" : "1.21.0",
+   "format_version" : "1.20.20",
    "sound_definitions" : {
+      "crafter.craft" : {
+         "__use_legacy_max_distance" : "true",
+         "category" : "block",
+         "max_distance" : 5.0,
+         "min_distance" : null,
+         "sounds" : [
+            {
+               "name" : "sounds/block/crafter/craft",
+               "volume" : 1.0
+            }
+         ]
+      },
+      "crafter.fail" : {
+         "__use_legacy_max_distance" : "true",
+         "category" : "block",
+         "max_distance" : 3,
+         "min_distance" : null,
+         "sounds" : [
+            {
+               "name" : "sounds/block/crafter/fail",
+               "volume" : 1.0
+            }
+         ]
+      },
       "item.trident.hit" : {
          "__use_legacy_max_distance" : "true",
          "category" : "player",
@@ -164,8 +188,8 @@
       "mob.ghast.affectionate_scream" : {
          "__use_legacy_max_distance" : "true",
          "category" : "hostile",
-         "max_distance" : null,
-         "min_distance" : 24.0,
+         "max_distance" : 80,
+         "min_distance" : 0,
          "sounds" : [
             {
                "name" : "sounds/mob/ghast/affectionate_scream",
@@ -176,8 +200,8 @@
       "mob.ghast.charge" : {
          "__use_legacy_max_distance" : "true",
          "category" : "hostile",
-         "max_distance" : null,
-         "min_distance" : 24.0,
+         "max_distance" : 80,
+         "min_distance" : 0,
          "sounds" : [
             {
                "load_on_low_memory" : true,
@@ -189,8 +213,8 @@
       "mob.ghast.death" : {
          "__use_legacy_max_distance" : "true",
          "category" : "hostile",
-         "max_distance" : null,
-         "min_distance" : 24.0,
+         "max_distance" : 80,
+         "min_distance" : 0,
          "sounds" : [
             {
                "name" : "sounds/mob/ghast/death",
@@ -208,8 +232,8 @@
       "mob.ghast.moan" : {
          "__use_legacy_max_distance" : "true",
          "category" : "hostile",
-         "max_distance" : null,
-         "min_distance" : 24.0,
+         "max_distance" : 80,
+         "min_distance" : 0,
          "sounds" : [
             {
                "load_on_low_memory" : true,
@@ -245,8 +269,8 @@
       "mob.ghast.scream" : {
          "__use_legacy_max_distance" : "true",
          "category" : "hostile",
-         "max_distance" : null,
-         "min_distance" : 24.0,
+         "max_distance" : 80,
+         "min_distance" : 0,
          "sounds" : [
             {
                "name" : "sounds/mob/ghast/scream1",
@@ -273,7 +297,7 @@
       },
         "sound.alert.music": {
             "category": "music",
-         "max_distance" : null,
+         "max_distance" : 1024,
          "min_distance" : null,
             "sounds": [
                 {
@@ -284,7 +308,7 @@
         },
         "sound.alarm_light.alarm": {
             "category": "music",
-         "max_distance" : null,
+         "max_distance" : 1024,
          "min_distance" : null,
             "sounds": [
                 {
