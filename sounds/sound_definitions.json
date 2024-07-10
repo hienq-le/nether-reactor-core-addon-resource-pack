@@ -1,358 +1,6 @@
 {
    "format_version" : "1.20.20",
    "sound_definitions" : {
-      "crafter.craft" : {
-         "__use_legacy_max_distance" : "true",
-         "category" : "block",
-         "max_distance" : 5.0,
-         "min_distance" : null,
-         "sounds" : [
-            {
-               "name" : "sounds/block/crafter/craft",
-               "volume" : 1.0
-            }
-         ]
-      },
-      "crafter.fail" : {
-         "__use_legacy_max_distance" : "true",
-         "category" : "block",
-         "max_distance" : 3,
-         "min_distance" : null,
-         "sounds" : [
-            {
-               "name" : "sounds/block/crafter/fail",
-               "volume" : 1.0
-            }
-         ]
-      },
-      "item.trident.hit" : {
-         "__use_legacy_max_distance" : "true",
-         "category" : "player",
-         "max_distance" : null,
-         "min_distance" : null,
-         "sounds" : [
-            "sounds/item/trident/pierce1",
-            "sounds/item/trident/pierce2",
-            "sounds/item/trident/pierce3"
-         ]
-      },
-      "item.trident.hit_ground" : {
-         "__use_legacy_max_distance" : "true",
-         "category" : "player",
-         "max_distance" : null,
-         "min_distance" : null,
-         "sounds" : [
-            {
-               "name" : "sounds/item/trident/ground_impact1",
-               "pitch" : 1,
-               "volume" : 0.85
-            },
-            {
-               "name" : "sounds/item/trident/ground_impact2",
-               "pitch" : 1,
-               "volume" : 0.85
-            },
-            {
-               "name" : "sounds/item/trident/ground_impact3",
-               "pitch" : 1,
-               "volume" : 0.85
-            },
-            {
-               "name" : "sounds/item/trident/ground_impact4",
-               "pitch" : 1,
-               "volume" : 0.85
-            }
-         ]
-      },
-      "item.trident.return" : {
-         "__use_legacy_max_distance" : "true",
-         "category" : "player",
-         "max_distance" : null,
-         "min_distance" : 4.0,
-         "sounds" : [
-            {
-               "name" : "sounds/item/trident/return1",
-               "pitch" : 1,
-               "volume" : 0.82
-            },
-            {
-               "name" : "sounds/item/trident/return2",
-               "pitch" : 1.20,
-               "volume" : 0.82
-            },
-            {
-               "name" : "sounds/item/trident/return3",
-               "pitch" : 0.80,
-               "volume" : 0.82
-            },
-            {
-               "name" : "sounds/item/trident/return2",
-               "pitch" : 1,
-               "volume" : 0.82
-            },
-            {
-               "name" : "sounds/item/trident/return2",
-               "pitch" : 1.20,
-               "volume" : 0.82
-            },
-            {
-               "name" : "sounds/item/trident/return2",
-               "pitch" : 0.80,
-               "volume" : 0.82
-            },
-            {
-               "name" : "sounds/item/trident/return3",
-               "pitch" : 1,
-               "volume" : 0.82
-            },
-            {
-               "name" : "sounds/item/trident/return3",
-               "pitch" : 1.20,
-               "volume" : 0.82
-            },
-            {
-               "name" : "sounds/item/trident/return3",
-               "pitch" : 0.80,
-               "volume" : 0.82
-            }
-         ]
-      },
-      "item.trident.riptide_1" : {
-         "__use_legacy_max_distance" : "true",
-         "category" : "player",
-         "max_distance" : null,
-         "min_distance" : null,
-         "sounds" : [
-            {
-               "load_on_low_memory" : true,
-               "name" : "sounds/item/trident/riptide_mono1",
-               "pitch" : 1,
-               "volume" : 1
-            }
-         ]
-      },
-      "item.trident.riptide_2" : {
-         "__use_legacy_max_distance" : "true",
-         "category" : "player",
-         "max_distance" : null,
-         "min_distance" : null,
-         "sounds" : [
-            {
-               "load_on_low_memory" : true,
-               "name" : "sounds/item/trident/riptide_mono2",
-               "pitch" : 1,
-               "volume" : 1
-            }
-         ]
-      },
-      "item.trident.riptide_3" : {
-         "__use_legacy_max_distance" : "true",
-         "category" : "player",
-         "max_distance" : null,
-         "min_distance" : null,
-         "sounds" : [
-            {
-               "load_on_low_memory" : true,
-               "name" : "sounds/item/trident/riptide_mono3",
-               "pitch" : 1,
-               "volume" : 1
-            }
-         ]
-      },
-      "item.trident.throw" : {
-         "__use_legacy_max_distance" : "true",
-         "category" : "player",
-         "max_distance" : null,
-         "min_distance" : null,
-         "sounds" : [
-            {
-               "load_on_low_memory" : true,
-               "name" : "sounds/item/trident/throw1",
-               "pitch" : 1,
-               "volume" : 0.90
-            },
-            {
-               "name" : "sounds/item/trident/throw2",
-               "pitch" : 1,
-               "volume" : 0.90
-            }
-         ]
-      },
-      "item.trident.thunder" : {
-         "__use_legacy_max_distance" : "true",
-         "category" : "player",
-         "max_distance" : null,
-         "min_distance" : null,
-         "sounds" : [ "sounds/item/trident/thunder1", "sounds/item/trident/thunder2" ]
-      },
-      "mob.ghast.affectionate_scream" : {
-         "__use_legacy_max_distance" : "true",
-         "category" : "hostile",
-         "max_distance" : 80,
-         "min_distance" : 0,
-         "sounds" : [
-            {
-               "name" : "sounds/mob/ghast/affectionate_scream",
-               "volume" : 0.50
-            }
-         ]
-      },
-      "mob.ghast.charge" : {
-         "__use_legacy_max_distance" : "true",
-         "category" : "hostile",
-         "max_distance" : 80,
-         "min_distance" : 0,
-         "sounds" : [
-            {
-               "load_on_low_memory" : true,
-               "name" : "sounds/mob/ghast/charge",
-               "volume" : 0.50
-            }
-         ]
-      },
-      "mob.ghast.death" : {
-         "__use_legacy_max_distance" : "true",
-         "category" : "hostile",
-         "max_distance" : 80,
-         "min_distance" : 0,
-         "sounds" : [
-            {
-               "name" : "sounds/mob/ghast/death",
-               "volume" : 0.50
-            }
-         ]
-      },
-      "mob.ghast.fireball" : {
-         "__use_legacy_max_distance" : "true",
-         "category" : "hostile",
-         "max_distance" : null,
-         "min_distance" : null,
-         "sounds" : [ "sounds/mob/ghast/fireball4" ]
-      },
-      "mob.ghast.moan" : {
-         "__use_legacy_max_distance" : "true",
-         "category" : "hostile",
-         "max_distance" : 80,
-         "min_distance" : 0,
-         "sounds" : [
-            {
-               "load_on_low_memory" : true,
-               "name" : "sounds/mob/ghast/moan1",
-               "volume" : 0.50
-            },
-            {
-               "name" : "sounds/mob/ghast/moan2",
-               "volume" : 0.50
-            },
-            {
-               "name" : "sounds/mob/ghast/moan3",
-               "volume" : 0.50
-            },
-            {
-               "name" : "sounds/mob/ghast/moan4",
-               "volume" : 0.50
-            },
-            {
-               "name" : "sounds/mob/ghast/moan5",
-               "volume" : 0.50
-            },
-            {
-               "name" : "sounds/mob/ghast/moan6",
-               "volume" : 0.50
-            },
-            {
-               "name" : "sounds/mob/ghast/moan7",
-               "volume" : 0.50
-            }
-         ]
-      },
-      "mob.ghast.scream" : {
-         "__use_legacy_max_distance" : "true",
-         "category" : "hostile",
-         "max_distance" : 80,
-         "min_distance" : 0,
-         "sounds" : [
-            {
-               "name" : "sounds/mob/ghast/scream1",
-               "volume" : 0.50
-            },
-            {
-               "name" : "sounds/mob/ghast/scream2",
-               "volume" : 0.50
-            },
-            {
-               "load_on_low_memory" : true,
-               "name" : "sounds/mob/ghast/scream3",
-               "volume" : 0.50
-            },
-            {
-               "name" : "sounds/mob/ghast/scream4",
-               "volume" : 0.50
-            },
-            {
-               "name" : "sounds/mob/ghast/scream5",
-               "volume" : 0.50
-            }
-         ]
-      },
-        "sound.alert.music": {
-            "category": "music",
-         "max_distance" : 1024,
-         "min_distance" : null,
-            "sounds": [
-                {
-                    "name": "sounds/other/alert",
-                    "load_on_low_memory": true
-                }
-            ]
-        },
-        "sound.alarm_light.alarm": {
-            "category": "music",
-         "max_distance" : 1024,
-         "min_distance" : null,
-            "sounds": [
-                {
-                    "name": "sounds/other/alarm",
-                    "load_on_low_memory": true
-                }
-            ]
-        },
-	"ambient.herobrine.jumpscare": {
-         "__use_legacy_max_distance" : "true",
-         "category" : "hostile",
-         "max_distance" : null,
-         "min_distance" : null,
-		"sounds": [
-			{
-				"name": "sounds/ambient/herobrine/a1",
-				"volume": 5.0
-			},
-			{
-				"name": "sounds/ambient/herobrine/a2",
-				"volume": 5.0
-			},
-			{
-				"name": "sounds/ambient/herobrine/a5",
-				"volume": 2.5
-			},
-			{
-				"name": "sounds/ambient/herobrine/a7",
-				"volume": 2.5
-			},
-			{
-				"name": "sounds/ambient/herobrine/a9",
-				"volume": 3.0
-			},
-			{
-				"name": "sounds/ambient/herobrine/a10",
-				"volume": 3.0
-			},
-			{
-				"name": "sounds/ambient/herobrine/a15",
-				"volume": 4.0
-			}
-		]
-	},
 	"ambient.herobrine.appears": {
          "__use_legacy_max_distance" : "true",
          "category" : "hostile",
@@ -421,613 +69,111 @@
 			}
 		]
 	},
-      "music.game.creative" : {
+	"ambient.herobrine.jumpscare": {
          "__use_legacy_max_distance" : "true",
-         "category" : "music",
+         "category" : "hostile",
          "max_distance" : null,
          "min_distance" : null,
-         "sounds" : [
-            {
-               "load_on_low_memory" : true,
-               "name" : "sounds/music/game/creative/creative1",
-               "stream" : true,
-               "volume" : 0.10
-            },
-            {
-               "load_on_low_memory" : true,
-               "name" : "sounds/music/game/creative/creative2",
-               "stream" : true,
-               "volume" : 0.10
-            },
-            {
-               "load_on_low_memory" : true,
-               "name" : "sounds/music/game/creative/creative3",
-               "stream" : true,
-               "volume" : 0.10
-            },
-            {
-               "load_on_low_memory" : true,
-               "name" : "sounds/music/game/creative/creative4",
-               "stream" : true,
-               "volume" : 0.10
-            },
-            {
-               "load_on_low_memory" : true,
-               "name" : "sounds/music/game/creative/creative5",
-               "stream" : true,
-               "volume" : 0.10
-            },
-            {
-               "load_on_low_memory" : true,
-               "name" : "sounds/music/game/creative/creative6",
-               "stream" : true,
-               "volume" : 0.10
-            },
-            {
-               "load_on_low_memory" : true,
-               "name" : "sounds/music/game/calm1",
-               "stream" : true,
-               "volume" : 0.20
-            },
-            {
-               "load_on_low_memory" : true,
-               "name" : "sounds/music/game/calm2",
-               "stream" : true,
-               "volume" : 0.20
-            },
-            {
-               "load_on_low_memory" : true,
-               "name" : "sounds/music/game/calm3",
-               "stream" : true,
-               "volume" : 0.20
-            },
-            {
-               "load_on_low_memory" : true,
-               "name" : "sounds/music/game/hal1",
-               "stream" : true,
-               "volume" : 0.10
-            },
-            {
-               "load_on_low_memory" : true,
-               "name" : "sounds/music/game/hal2",
-               "stream" : true,
-               "volume" : 0.20
-            },
-            {
-               "load_on_low_memory" : true,
-               "name" : "sounds/music/game/hal3",
-               "stream" : true,
-               "volume" : 0.10
-            },
-            {
-               "load_on_low_memory" : true,
-               "name" : "sounds/music/game/hal4",
-               "stream" : true,
-               "volume" : 0.20
-            },
-            {
-               "load_on_low_memory" : true,
-               "name" : "sounds/music/game/nuance1",
-               "stream" : true,
-               "volume" : 0.30
-            },
-            {
-               "load_on_low_memory" : true,
-               "name" : "sounds/music/game/nuance2",
-               "stream" : true,
-               "volume" : 0.30
-            },
-            {
-               "load_on_low_memory" : true,
-               "name" : "sounds/music/game/piano1",
-               "stream" : true,
-               "volume" : 0.20
-            },
-            {
-               "load_on_low_memory" : true,
-               "name" : "sounds/music/game/piano2",
-               "stream" : true,
-               "volume" : 0.20
-            },
-            {
-               "load_on_low_memory" : true,
-               "name" : "sounds/music/game/piano3",
-               "stream" : true,
-               "volume" : 0.20
-            },
-            {
-               "load_on_low_memory" : true,
-               "name" : "sounds/music/game/an_ordinary_day",
-               "stream" : true,
-               "volume" : 0.40
-            },
-            {
-               "load_on_low_memory" : true,
-               "name" : "sounds/music/game/stand_tall",
-               "stream" : true,
-               "volume" : 0.40
-            },
-            {
-               "load_on_low_memory" : true,
-               "name" : "sounds/music/game/one_more_day",
-               "stream" : true,
-               "volume" : 0.40
-            },
-            {
-               "load_on_low_memory" : true,
-               "name" : "sounds/music/game/floating_dream",
-               "stream" : true,
-               "volume" : 0.40
-            },
-            {
-               "load_on_low_memory" : true,
-               "name" : "sounds/music/game/left_to_bloom",
-               "stream" : true,
-               "volume" : 0.40
-            },
-            {
-               "load_on_low_memory" : true,
-               "name" : "sounds/music/game/comforting_memories",
-               "stream" : true,
-               "volume" : 0.40
-            },
-            {
-               "load_on_low_memory" : true,
-               "name" : "sounds/music/game/deeper",
-               "stream" : true,
-               "volume" : 0.55
-            },
-            {
-               "load_on_low_memory" : true,
-               "name" : "sounds/music/game/eld_unknown",
-               "stream" : true,
-               "volume" : 0.52
-            },
-            {
-               "load_on_low_memory" : true,
-               "name" : "sounds/music/game/endless",
-               "stream" : true,
-               "volume" : 0.58
-            },
-            {
-               "load_on_low_memory" : true,
-               "name" : "sounds/music/game/featherfall",
-               "stream" : true,
-               "volume" : 0.40
-            },
-            {
-               "load_on_low_memory" : true,
-               "name" : "sounds/music/game/komorebi",
-               "stream" : true,
-               "volume" : 0.80
-            },
-            {
-               "load_on_low_memory" : true,
-               "name" : "sounds/music/game/pokopoko",
-               "stream" : true,
-               "volume" : 0.60
-            },
-            {
-               "load_on_low_memory" : true,
-               "name" : "sounds/music/game/puzzlebox",
-               "stream" : true,
-               "volume" : 0.40
-            },
-            {
-               "load_on_low_memory" : true,
-               "name" : "sounds/music/game/watcher",
-               "stream" : true,
-               "volume" : 0.40
-            },
-            {
-               "load_on_low_memory" : true,
-               "name" : "sounds/music/game/yakusoku",
-               "stream" : true,
-               "volume" : 0.80
-            }
-         ]
-      },
-      "music.game.ancient_city" : {
-         "category" : "music",
-         "max_distance" : null,
-         "min_distance" : null,
-         "sounds" : [
-            {
-               "load_on_low_memory" : true,
-               "name" : "sounds/music/game/ancestry",
-               "stream" : true,
-               "volume" : 0.50
-            },
-            {
-               "load_on_low_memory" : true,
-               "name" : "sounds/music/game/records/5",
-               "stream" : true,
-               "volume" : 0.50
-            }
-         ]
-      },
-      "music.game.warped_forest" : {
-         "category" : "music",
-         "max_distance" : null,
-         "min_distance" : null,
-         "sounds" : [
-            {
-               "load_on_low_memory" : true,
-               "name" : "sounds/music/game/records/pigstep_master",
-               "stream" : true,
-               "volume" : 0.50
-            }
-         ]
-      },
-      "music.game.trail_ruins" : {
-         "__use_legacy_max_distance" : "true",
-         "category" : "music",
-         "max_distance" : null,
-         "min_distance" : null,
-         "sounds" : [
-            {
-               "load_on_low_memory" : true,
-               "name" : "sounds/music/game/bromeliad",
-               "stream" : true,
-               "volume" : 0.50
-            },
-            {
-               "load_on_low_memory" : true,
-               "name" : "sounds/music/game/records/relic",
-               "stream" : true,
-               "volume" : 0.50
-            }
-	  ]
-      },
-      "music.game.trial_chambers" : {
-         "__use_legacy_max_distance" : "true",
-         "category" : "music",
-         "max_distance" : null,
-         "min_distance" : null,
-         "sounds" : [
-            {
-               "load_on_low_memory" : true,
-               "name" : "sounds/music/game/deeper",
-               "stream" : true,
-               "volume" : 1
-            },
-            {
-               "load_on_low_memory" : true,
-               "name" : "sounds/music/game/eld_unknown",
-               "stream" : true,
-               "volume" : 1
-            },
-            {
-               "load_on_low_memory" : true,
-               "name" : "sounds/music/game/endless",
-               "stream" : true,
-               "volume" : 1
-            },
-            {
-               "load_on_low_memory" : true,
-               "name" : "sounds/music/game/featherfall",
-               "stream" : true,
-               "volume" : 1
-            },
-            {
-               "load_on_low_memory" : true,
-               "name" : "sounds/music/game/komorebi",
-               "stream" : true,
-               "volume" : 1
-            },
-            {
-               "load_on_low_memory" : true,
-               "name" : "sounds/music/game/pokopoko",
-               "stream" : true,
-               "volume" : 1
-            },
-            {
-               "load_on_low_memory" : true,
-               "name" : "sounds/music/game/puzzlebox",
-               "stream" : true,
-               "volume" : 1
-            },
-            {
-               "load_on_low_memory" : true,
-               "name" : "sounds/music/game/watcher",
-               "stream" : true,
-               "volume" : 1
-            },
-            {
-               "load_on_low_memory" : true,
-               "name" : "sounds/music/game/yakusoku",
-               "stream" : true,
-               "volume" : 1
-            }
-            {
-               "load_on_low_memory" : true,
-               "name" : "sounds/music/game/records/creator",
-               "stream" : true,
-               "volume" : 1
-            },
-            {
-               "load_on_low_memory" : true,
-               "name" : "sounds/music/game/records/creator_music_box",
-               "stream" : true,
-               "volume" : 1
-            },
-            {
-               "load_on_low_memory" : true,
-               "name" : "sounds/music/game/records/precipice",
-               "stream" : true,
-               "volume" : 1
-            }
-	  ]
-      },
-      "music.game.desert_pyramid" : {
-         "__use_legacy_max_distance" : "true",
-         "category" : "music",
-         "max_distance" : null,
-         "min_distance" : null,
-         "sounds" : [
-            {
-               "load_on_low_memory" : true,
-               "name" : "sounds/music/game/crescent_dunes",
-               "stream" : true,
-               "volume" : 0.45
-            }
-	  ]
-      },
-      "music.game.desert_village" : {
-         "__use_legacy_max_distance" : "true",
-         "category" : "music",
-         "max_distance" : null,
-         "min_distance" : null,
-         "sounds" : [
-            {
-               "load_on_low_memory" : true,
-               "name" : "sounds/music/game/crescent_dunes",
-               "stream" : true,
-               "volume" : 0.5
-            }
-	  ]
-      },
-      "music.game.jungle_temple" : {
-         "__use_legacy_max_distance" : "true",
-         "category" : "music",
-         "max_distance" : null,
-         "min_distance" : null,
-         "sounds" : [
-            {
-               "load_on_low_memory" : true,
-               "name" : "sounds/music/game/bromeliad",
-               "stream" : true,
-               "volume" : 0.45
-            }
-	  ]
-      },
-      "record.11" : {
-         "__use_legacy_max_distance" : "true",
-         "category" : "record",
-         "max_distance" : null,
-         "min_distance" : null,
-         "sounds" : [
-            {
-               "load_on_low_memory" : true,
-               "name" : "sounds/music/game/records/11",
-               "stream" : true,
-               "volume" : 0.50
-            }
-         ]
-      },
-      "record.13" : {
-         "__use_legacy_max_distance" : "true",
-         "category" : "record",
-         "max_distance" : null,
-         "min_distance" : null,
-         "sounds" : [
-            {
-               "load_on_low_memory" : true,
-               "name" : "sounds/music/game/records/13",
-               "stream" : true,
-               "volume" : 0.50
-            }
-         ]
-      },
-      "record.5" : {
-         "max_distance" : null,
-         "min_distance" : null,
-         "sounds" : [
-            {
-               "load_on_low_memory" : true,
-               "name" : "sounds/music/game/records/5",
-               "stream" : true,
-               "volume" : 0.50
-            }
-         ]
-      },
-      "record.blocks" : {
-         "__use_legacy_max_distance" : "true",
-         "category" : "record",
-         "max_distance" : null,
-         "min_distance" : null,
-         "sounds" : [
-            {
-               "load_on_low_memory" : true,
-               "name" : "sounds/music/game/records/blocks",
-               "stream" : true,
-               "volume" : 0.50
-            }
-         ]
-      },
-      "record.cat" : {
-         "__use_legacy_max_distance" : "true",
-         "category" : "record",
-         "max_distance" : null,
-         "min_distance" : null,
-         "sounds" : [
-            {
-               "load_on_low_memory" : true,
-               "name" : "sounds/music/game/records/cat",
-               "stream" : true,
-               "volume" : 0.50
-            }
-         ]
-      },
-      "record.chirp" : {
-         "__use_legacy_max_distance" : "true",
-         "category" : "record",
-         "max_distance" : null,
-         "min_distance" : null,
-         "sounds" : [
-            {
-               "load_on_low_memory" : true,
-               "name" : "sounds/music/game/records/chirp",
-               "stream" : true,
-               "volume" : 0.50
-            }
-         ]
-      },
-      "record.far" : {
-         "__use_legacy_max_distance" : "true",
-         "category" : "record",
-         "max_distance" : null,
-         "min_distance" : null,
-         "sounds" : [
-            {
-               "load_on_low_memory" : true,
-               "name" : "sounds/music/game/records/far",
-               "stream" : true,
-               "volume" : 0.50
-            }
-         ]
-      },
-      "record.mall" : {
-         "__use_legacy_max_distance" : "true",
-         "category" : "record",
-         "max_distance" : null,
-         "min_distance" : null,
-         "sounds" : [
-            {
-               "load_on_low_memory" : true,
-               "name" : "sounds/music/game/records/mall",
-               "stream" : true,
-               "volume" : 0.50
-            }
-         ]
-      },
-      "record.mellohi" : {
-         "__use_legacy_max_distance" : "true",
-         "category" : "record",
-         "max_distance" : null,
-         "min_distance" : null,
-         "sounds" : [
-            {
-               "load_on_low_memory" : true,
-               "name" : "sounds/music/game/records/mellohi",
-               "stream" : true,
-               "volume" : 0.50
-            }
-         ]
-      },
-      "record.otherside" : {
-         "max_distance" : null,
-         "min_distance" : null,
-         "sounds" : [
-            {
-               "load_on_low_memory" : true,
-               "name" : "sounds/music/game/records/otherside",
-               "stream" : true,
-               "volume" : 0.50
-            }
-         ]
-      },
-      "record.pigstep" : {
-         "category" : "record",
-         "max_distance" : null,
-         "min_distance" : null,
-         "sounds" : [
-            {
-               "load_on_low_memory" : true,
-               "name" : "sounds/music/game/records/pigstep_master",
-               "stream" : true,
-               "volume" : 0.50
-            }
-         ]
-      },
-      "record.relic" : {
-         "__use_legacy_max_distance" : "true",
-         "category" : "record",
-         "max_distance" : null,
-         "min_distance" : null,
-         "sounds" : [
-            {
-               "load_on_low_memory" : true,
-               "name" : "sounds/music/game/records/relic",
-               "stream" : true,
-               "volume" : 0.50
-            }
-         ]
-      },
-      "record.stal" : {
-         "__use_legacy_max_distance" : "true",
-         "category" : "record",
-         "max_distance" : null,
-         "min_distance" : null,
-         "sounds" : [
-            {
-               "load_on_low_memory" : true,
-               "name" : "sounds/music/game/records/stal",
-               "stream" : true,
-               "volume" : 0.50
-            }
-         ]
-      },
-      "record.strad" : {
-         "__use_legacy_max_distance" : "true",
-         "category" : "record",
-         "max_distance" : null,
-         "min_distance" : null,
-         "sounds" : [
-            {
-               "load_on_low_memory" : true,
-               "name" : "sounds/music/game/records/strad",
-               "stream" : true,
-               "volume" : 0.50
-            }
-         ]
-      },
-      "record.wait" : {
-         "__use_legacy_max_distance" : "true",
-         "category" : "record",
-         "max_distance" : null,
-         "min_distance" : null,
-         "sounds" : [
-            {
-               "load_on_low_memory" : true,
-               "name" : "sounds/music/game/records/wait",
-               "stream" : true,
-               "volume" : 0.50
-            }
-         ]
-      },
-      "record.ward" : {
-         "__use_legacy_max_distance" : "true",
-         "category" : "record",
-         "max_distance" : null,
-         "min_distance" : null,
-         "sounds" : [
-            {
-               "load_on_low_memory" : true,
-               "name" : "sounds/music/game/records/ward",
-               "stream" : true,
-               "volume" : 0.50
-            }
-         ]
-      },
-      "vault.reject_rewarded_player" : {
-         "__use_legacy_max_distance" : "true",
+		"sounds": [
+			{
+				"name": "sounds/ambient/herobrine/a1",
+				"volume": 5.0
+			},
+			{
+				"name": "sounds/ambient/herobrine/a2",
+				"volume": 5.0
+			},
+			{
+				"name": "sounds/ambient/herobrine/a5",
+				"volume": 2.5
+			},
+			{
+				"name": "sounds/ambient/herobrine/a7",
+				"volume": 2.5
+			},
+			{
+				"name": "sounds/ambient/herobrine/a9",
+				"volume": 3.0
+			},
+			{
+				"name": "sounds/ambient/herobrine/a10",
+				"volume": 3.0
+			},
+			{
+				"name": "sounds/ambient/herobrine/a15",
+				"volume": 4.0
+			}
+		]
+	},
+      "break.copper_bulb" : {
          "category" : "block",
          "max_distance" : null,
          "min_distance" : null,
          "sounds" : [
             {
-               "name" : "sounds/block/vault/reject_rewarded_player"
+               "name" : "sounds/block/copper_bulb/break1",
+		"pitch": Math.random() * (1.21 - 0.8) + 0.8
+            },
+            {
+               "name" : "sounds/block/copper_bulb/break2",
+		"pitch": Math.random() * (1.21 - 0.8) + 0.8
+            },
+            {
+               "name" : "sounds/block/copper_bulb/break3",
+		"pitch": Math.random() * (1.21 - 0.8) + 0.8
+            },
+            {
+               "name" : "sounds/block/copper_bulb/break4",
+		"pitch": Math.random() * (1.21 - 0.8) + 0.8
+            }
+         ]
+      },
+      "break.copper_grate" : {
+         "category" : "block",
+         "max_distance" : null,
+         "min_distance" : null,
+         "sounds" : [
+            {
+               "name" : "sounds/block/copper_grate/break1",
+		"pitch": Math.random() * (1.21 - 0.8) + 0.8
+            },
+            {
+               "name" : "sounds/block/copper_grate/break2",
+		"pitch": Math.random() * (1.21 - 0.8) + 0.8
+            },
+            {
+               "name" : "sounds/block/copper_grate/break3",
+		"pitch": Math.random() * (1.21 - 0.8) + 0.8
+            },
+            {
+               "name" : "sounds/block/copper_grate/break4",
+		"pitch": Math.random() * (1.21 - 0.8) + 0.8
+            }
+         ]
+      },
+      "crafter.craft" : {
+         "__use_legacy_max_distance" : "true",
+         "category" : "block",
+         "max_distance" : 5.0,
+         "min_distance" : null,
+         "sounds" : [
+            {
+               "name" : "sounds/block/crafter/craft",
+               "volume" : 1.0,
+		"pitch": Math.random() * (1.05 - 0.96) + 0.96
+            }
+         ]
+      },
+      "crafter.fail" : {
+         "__use_legacy_max_distance" : "true",
+         "category" : "block",
+         "max_distance" : 3,
+         "min_distance" : null,
+         "sounds" : [
+            {
+               "name" : "sounds/block/crafter/fail",
+               "volume" : 1.0,
+		"pitch": Math.random() * (1.05 - 0.96) + 0.96
             }
          ]
       },
@@ -1436,6 +582,810 @@
 				"pitch": 1
 			}
 		]
-	}
+	},
+      "hit.copper_bulb" : {
+         "category" : "block",
+         "max_distance" : null,
+         "min_distance" : null,
+         "sounds" : [
+            {
+               "name" : "sounds/block/copper_bulb/step1",
+		"pitch": Math.random() * (1.21 - 0.8) + 0.8
+            },
+            {
+               "name" : "sounds/block/copper_bulb/step2",
+		"pitch": Math.random() * (1.21 - 0.8) + 0.8
+            },
+            {
+               "name" : "sounds/block/copper_bulb/step3",
+		"pitch": Math.random() * (1.21 - 0.8) + 0.8
+            },
+            {
+               "name" : "sounds/block/copper_bulb/step4",
+		"pitch": Math.random() * (1.21 - 0.8) + 0.8
+            },
+            {
+               "name" : "sounds/block/copper_bulb/step5",
+		"pitch": Math.random() * (1.21 - 0.8) + 0.8
+            },
+            {
+               "name" : "sounds/block/copper_bulb/step6",
+		"pitch": Math.random() * (1.21 - 0.8) + 0.8
+            }
+         ]
+      },
+      "item.trident.hit" : {
+         "__use_legacy_max_distance" : "true",
+         "category" : "player",
+         "max_distance" : null,
+         "min_distance" : null,
+         "sounds" : [
+            "sounds/item/trident/pierce1",
+            "sounds/item/trident/pierce2",
+            "sounds/item/trident/pierce3"
+         ]
+      },
+      "item.trident.hit_ground" : {
+         "__use_legacy_max_distance" : "true",
+         "category" : "player",
+         "max_distance" : null,
+         "min_distance" : null,
+         "sounds" : [
+            {
+               "name" : "sounds/item/trident/ground_impact1",
+               "pitch" : 1,
+               "volume" : 0.85
+            },
+            {
+               "name" : "sounds/item/trident/ground_impact2",
+               "pitch" : 1,
+               "volume" : 0.85
+            },
+            {
+               "name" : "sounds/item/trident/ground_impact3",
+               "pitch" : 1,
+               "volume" : 0.85
+            },
+            {
+               "name" : "sounds/item/trident/ground_impact4",
+               "pitch" : 1,
+               "volume" : 0.85
+            }
+         ]
+      },
+      "item.trident.return" : {
+         "__use_legacy_max_distance" : "true",
+         "category" : "player",
+         "max_distance" : null,
+         "min_distance" : 4.0,
+         "sounds" : [
+            {
+               "name" : "sounds/item/trident/return1",
+               "pitch" : 1,
+               "volume" : 0.82
+            },
+            {
+               "name" : "sounds/item/trident/return2",
+               "pitch" : 1.20,
+               "volume" : 0.82
+            },
+            {
+               "name" : "sounds/item/trident/return3",
+               "pitch" : 0.80,
+               "volume" : 0.82
+            },
+            {
+               "name" : "sounds/item/trident/return2",
+               "pitch" : 1,
+               "volume" : 0.82
+            },
+            {
+               "name" : "sounds/item/trident/return2",
+               "pitch" : 1.20,
+               "volume" : 0.82
+            },
+            {
+               "name" : "sounds/item/trident/return2",
+               "pitch" : 0.80,
+               "volume" : 0.82
+            },
+            {
+               "name" : "sounds/item/trident/return3",
+               "pitch" : 1,
+               "volume" : 0.82
+            },
+            {
+               "name" : "sounds/item/trident/return3",
+               "pitch" : 1.20,
+               "volume" : 0.82
+            },
+            {
+               "name" : "sounds/item/trident/return3",
+               "pitch" : 0.80,
+               "volume" : 0.82
+            }
+         ]
+      },
+      "item.trident.riptide_1" : {
+         "__use_legacy_max_distance" : "true",
+         "category" : "player",
+         "max_distance" : null,
+         "min_distance" : null,
+         "sounds" : [
+            {
+               "load_on_low_memory" : true,
+               "name" : "sounds/item/trident/riptide_mono1",
+               "pitch" : 1,
+               "volume" : 1
+            }
+         ]
+      },
+      "item.trident.riptide_2" : {
+         "__use_legacy_max_distance" : "true",
+         "category" : "player",
+         "max_distance" : null,
+         "min_distance" : null,
+         "sounds" : [
+            {
+               "load_on_low_memory" : true,
+               "name" : "sounds/item/trident/riptide_mono2",
+               "pitch" : 1,
+               "volume" : 1
+            }
+         ]
+      },
+      "item.trident.riptide_3" : {
+         "__use_legacy_max_distance" : "true",
+         "category" : "player",
+         "max_distance" : null,
+         "min_distance" : null,
+         "sounds" : [
+            {
+               "load_on_low_memory" : true,
+               "name" : "sounds/item/trident/riptide_mono3",
+               "pitch" : 1,
+               "volume" : 1
+            }
+         ]
+      },
+      "item.trident.throw" : {
+         "__use_legacy_max_distance" : "true",
+         "category" : "player",
+         "max_distance" : null,
+         "min_distance" : null,
+         "sounds" : [
+            {
+               "load_on_low_memory" : true,
+               "name" : "sounds/item/trident/throw1",
+               "pitch" : 1,
+               "volume" : 0.90
+            },
+            {
+               "name" : "sounds/item/trident/throw2",
+               "pitch" : 1,
+               "volume" : 0.90
+            }
+         ]
+      },
+      "item.trident.thunder" : {
+         "__use_legacy_max_distance" : "true",
+         "category" : "player",
+         "max_distance" : null,
+         "min_distance" : null,
+         "sounds" : [ "sounds/item/trident/thunder1", "sounds/item/trident/thunder2" ]
+      },
+      "mob.ghast.affectionate_scream" : {
+         "__use_legacy_max_distance" : "true",
+         "category" : "hostile",
+         "max_distance" : 80,
+         "min_distance" : 0,
+         "sounds" : [
+            {
+               "name" : "sounds/mob/ghast/affectionate_scream",
+               "volume" : 0.50
+            }
+         ]
+      },
+      "mob.ghast.charge" : {
+         "__use_legacy_max_distance" : "true",
+         "category" : "hostile",
+         "max_distance" : 80,
+         "min_distance" : 0,
+         "sounds" : [
+            {
+               "load_on_low_memory" : true,
+               "name" : "sounds/mob/ghast/charge",
+               "volume" : 0.50
+            }
+         ]
+      },
+      "mob.ghast.death" : {
+         "__use_legacy_max_distance" : "true",
+         "category" : "hostile",
+         "max_distance" : 80,
+         "min_distance" : 0,
+         "sounds" : [
+            {
+               "name" : "sounds/mob/ghast/death",
+               "volume" : 0.50
+            }
+         ]
+      },
+      "mob.ghast.fireball" : {
+         "__use_legacy_max_distance" : "true",
+         "category" : "hostile",
+         "max_distance" : null,
+         "min_distance" : null,
+         "sounds" : [ "sounds/mob/ghast/fireball4" ]
+      },
+      "mob.ghast.moan" : {
+         "__use_legacy_max_distance" : "true",
+         "category" : "hostile",
+         "max_distance" : 80,
+         "min_distance" : 0,
+         "sounds" : [
+            {
+               "load_on_low_memory" : true,
+               "name" : "sounds/mob/ghast/moan1",
+               "volume" : 0.50
+            },
+            {
+               "name" : "sounds/mob/ghast/moan2",
+               "volume" : 0.50
+            },
+            {
+               "name" : "sounds/mob/ghast/moan3",
+               "volume" : 0.50
+            },
+            {
+               "name" : "sounds/mob/ghast/moan4",
+               "volume" : 0.50
+            },
+            {
+               "name" : "sounds/mob/ghast/moan5",
+               "volume" : 0.50
+            },
+            {
+               "name" : "sounds/mob/ghast/moan6",
+               "volume" : 0.50
+            },
+            {
+               "name" : "sounds/mob/ghast/moan7",
+               "volume" : 0.50
+            }
+         ]
+      },
+      "mob.ghast.scream" : {
+         "__use_legacy_max_distance" : "true",
+         "category" : "hostile",
+         "max_distance" : 80,
+         "min_distance" : 0,
+         "sounds" : [
+            {
+               "name" : "sounds/mob/ghast/scream1",
+               "volume" : 0.50
+            },
+            {
+               "name" : "sounds/mob/ghast/scream2",
+               "volume" : 0.50
+            },
+            {
+               "load_on_low_memory" : true,
+               "name" : "sounds/mob/ghast/scream3",
+               "volume" : 0.50
+            },
+            {
+               "name" : "sounds/mob/ghast/scream4",
+               "volume" : 0.50
+            },
+            {
+               "name" : "sounds/mob/ghast/scream5",
+               "volume" : 0.50
+            }
+         ]
+      },
+      "music.game.ancient_city" : {
+         "category" : "music",
+         "max_distance" : null,
+         "min_distance" : null,
+         "sounds" : [
+            {
+               "load_on_low_memory" : true,
+               "name" : "sounds/music/game/ancestry",
+               "stream" : true,
+               "volume" : 0.50
+            },
+            {
+               "load_on_low_memory" : true,
+               "name" : "sounds/music/game/records/5",
+               "stream" : true,
+               "volume" : 0.50
+            }
+         ]
+      },
+      "music.game.creative" : {
+         "__use_legacy_max_distance" : "true",
+         "category" : "music",
+         "max_distance" : null,
+         "min_distance" : null,
+         "sounds" : [
+            {
+               "load_on_low_memory" : true,
+               "name" : "sounds/music/game/creative/creative1",
+               "stream" : true,
+               "volume" : 0.10
+            },
+            {
+               "load_on_low_memory" : true,
+               "name" : "sounds/music/game/creative/creative2",
+               "stream" : true,
+               "volume" : 0.10
+            },
+            {
+               "load_on_low_memory" : true,
+               "name" : "sounds/music/game/creative/creative3",
+               "stream" : true,
+               "volume" : 0.10
+            },
+            {
+               "load_on_low_memory" : true,
+               "name" : "sounds/music/game/creative/creative4",
+               "stream" : true,
+               "volume" : 0.10
+            },
+            {
+               "load_on_low_memory" : true,
+               "name" : "sounds/music/game/creative/creative5",
+               "stream" : true,
+               "volume" : 0.10
+            },
+            {
+               "load_on_low_memory" : true,
+               "name" : "sounds/music/game/creative/creative6",
+               "stream" : true,
+               "volume" : 0.10
+            },
+            {
+               "load_on_low_memory" : true,
+               "name" : "sounds/music/game/calm1",
+               "stream" : true,
+               "volume" : 0.20
+            },
+            {
+               "load_on_low_memory" : true,
+               "name" : "sounds/music/game/calm2",
+               "stream" : true,
+               "volume" : 0.20
+            },
+            {
+               "load_on_low_memory" : true,
+               "name" : "sounds/music/game/calm3",
+               "stream" : true,
+               "volume" : 0.20
+            },
+            {
+               "load_on_low_memory" : true,
+               "name" : "sounds/music/game/hal1",
+               "stream" : true,
+               "volume" : 0.10
+            },
+            {
+               "load_on_low_memory" : true,
+               "name" : "sounds/music/game/hal2",
+               "stream" : true,
+               "volume" : 0.20
+            },
+            {
+               "load_on_low_memory" : true,
+               "name" : "sounds/music/game/hal3",
+               "stream" : true,
+               "volume" : 0.10
+            },
+            {
+               "load_on_low_memory" : true,
+               "name" : "sounds/music/game/hal4",
+               "stream" : true,
+               "volume" : 0.20
+            },
+            {
+               "load_on_low_memory" : true,
+               "name" : "sounds/music/game/nuance1",
+               "stream" : true,
+               "volume" : 0.30
+            },
+            {
+               "load_on_low_memory" : true,
+               "name" : "sounds/music/game/nuance2",
+               "stream" : true,
+               "volume" : 0.30
+            },
+            {
+               "load_on_low_memory" : true,
+               "name" : "sounds/music/game/piano1",
+               "stream" : true,
+               "volume" : 0.20
+            },
+            {
+               "load_on_low_memory" : true,
+               "name" : "sounds/music/game/piano2",
+               "stream" : true,
+               "volume" : 0.20
+            },
+            {
+               "load_on_low_memory" : true,
+               "name" : "sounds/music/game/piano3",
+               "stream" : true,
+               "volume" : 0.20
+            },
+            {
+               "load_on_low_memory" : true,
+               "name" : "sounds/music/game/an_ordinary_day",
+               "stream" : true,
+               "volume" : 0.40
+            },
+            {
+               "load_on_low_memory" : true,
+               "name" : "sounds/music/game/stand_tall",
+               "stream" : true,
+               "volume" : 0.40
+            },
+            {
+               "load_on_low_memory" : true,
+               "name" : "sounds/music/game/one_more_day",
+               "stream" : true,
+               "volume" : 0.40
+            },
+            {
+               "load_on_low_memory" : true,
+               "name" : "sounds/music/game/floating_dream",
+               "stream" : true,
+               "volume" : 0.40
+            },
+            {
+               "load_on_low_memory" : true,
+               "name" : "sounds/music/game/left_to_bloom",
+               "stream" : true,
+               "volume" : 0.40
+            },
+            {
+               "load_on_low_memory" : true,
+               "name" : "sounds/music/game/comforting_memories",
+               "stream" : true,
+               "volume" : 0.40
+            },
+            {
+               "load_on_low_memory" : true,
+               "name" : "sounds/music/game/deeper",
+               "stream" : true,
+               "volume" : 0.55
+            },
+            {
+               "load_on_low_memory" : true,
+               "name" : "sounds/music/game/eld_unknown",
+               "stream" : true,
+               "volume" : 0.52
+            },
+            {
+               "load_on_low_memory" : true,
+               "name" : "sounds/music/game/endless",
+               "stream" : true,
+               "volume" : 0.58
+            },
+            {
+               "load_on_low_memory" : true,
+               "name" : "sounds/music/game/featherfall",
+               "stream" : true,
+               "volume" : 0.40
+            },
+            {
+               "load_on_low_memory" : true,
+               "name" : "sounds/music/game/komorebi",
+               "stream" : true,
+               "volume" : 0.80
+            },
+            {
+               "load_on_low_memory" : true,
+               "name" : "sounds/music/game/pokopoko",
+               "stream" : true,
+               "volume" : 0.60
+            },
+            {
+               "load_on_low_memory" : true,
+               "name" : "sounds/music/game/puzzlebox",
+               "stream" : true,
+               "volume" : 0.40
+            },
+            {
+               "load_on_low_memory" : true,
+               "name" : "sounds/music/game/watcher",
+               "stream" : true,
+               "volume" : 0.40
+            },
+            {
+               "load_on_low_memory" : true,
+               "name" : "sounds/music/game/yakusoku",
+               "stream" : true,
+               "volume" : 0.80
+            }
+         ]
+      },
+      "music.game.desert_pyramid" : {
+         "__use_legacy_max_distance" : "true",
+         "category" : "music",
+         "max_distance" : null,
+         "min_distance" : null,
+         "sounds" : [
+            {
+               "load_on_low_memory" : true,
+               "name" : "sounds/music/game/crescent_dunes",
+               "stream" : true,
+               "volume" : 0.45
+            }
+	  ]
+      },
+      "music.game.desert_village" : {
+         "__use_legacy_max_distance" : "true",
+         "category" : "music",
+         "max_distance" : null,
+         "min_distance" : null,
+         "sounds" : [
+            {
+               "load_on_low_memory" : true,
+               "name" : "sounds/music/game/crescent_dunes",
+               "stream" : true,
+               "volume" : 0.5
+            }
+	  ]
+      },
+      "music.game.jungle_temple" : {
+         "__use_legacy_max_distance" : "true",
+         "category" : "music",
+         "max_distance" : null,
+         "min_distance" : null,
+         "sounds" : [
+            {
+               "load_on_low_memory" : true,
+               "name" : "sounds/music/game/bromeliad",
+               "stream" : true,
+               "volume" : 0.45
+            }
+	  ]
+      },
+      "music.game.trail_ruins" : {
+         "__use_legacy_max_distance" : "true",
+         "category" : "music",
+         "max_distance" : null,
+         "min_distance" : null,
+         "sounds" : [
+            {
+               "load_on_low_memory" : true,
+               "name" : "sounds/music/game/bromeliad",
+               "stream" : true,
+               "volume" : 0.50
+            },
+            {
+               "load_on_low_memory" : true,
+               "name" : "sounds/music/game/records/relic",
+               "stream" : true,
+               "volume" : 0.50
+            }
+	  ]
+      },
+      "music.game.trial_chambers" : {
+         "__use_legacy_max_distance" : "true",
+         "category" : "music",
+         "max_distance" : null,
+         "min_distance" : null,
+         "sounds" : [
+            {
+               "load_on_low_memory" : true,
+               "name" : "sounds/music/game/deeper",
+               "stream" : true,
+               "volume" : 1
+            },
+            {
+               "load_on_low_memory" : true,
+               "name" : "sounds/music/game/eld_unknown",
+               "stream" : true,
+               "volume" : 1
+            },
+            {
+               "load_on_low_memory" : true,
+               "name" : "sounds/music/game/endless",
+               "stream" : true,
+               "volume" : 1
+            },
+            {
+               "load_on_low_memory" : true,
+               "name" : "sounds/music/game/featherfall",
+               "stream" : true,
+               "volume" : 1
+            },
+            {
+               "load_on_low_memory" : true,
+               "name" : "sounds/music/game/komorebi",
+               "stream" : true,
+               "volume" : 1
+            },
+            {
+               "load_on_low_memory" : true,
+               "name" : "sounds/music/game/pokopoko",
+               "stream" : true,
+               "volume" : 1
+            },
+            {
+               "load_on_low_memory" : true,
+               "name" : "sounds/music/game/puzzlebox",
+               "stream" : true,
+               "volume" : 1
+            },
+            {
+               "load_on_low_memory" : true,
+               "name" : "sounds/music/game/watcher",
+               "stream" : true,
+               "volume" : 1
+            },
+            {
+               "load_on_low_memory" : true,
+               "name" : "sounds/music/game/yakusoku",
+               "stream" : true,
+               "volume" : 1
+            }
+            {
+               "load_on_low_memory" : true,
+               "name" : "sounds/music/game/records/creator",
+               "stream" : true,
+               "volume" : 1
+            },
+            {
+               "load_on_low_memory" : true,
+               "name" : "sounds/music/game/records/creator_music_box",
+               "stream" : true,
+               "volume" : 1
+            },
+            {
+               "load_on_low_memory" : true,
+               "name" : "sounds/music/game/records/precipice",
+               "stream" : true,
+               "volume" : 1
+            }
+	  ]
+      },
+      "music.game.warped_forest" : {
+         "category" : "music",
+         "max_distance" : null,
+         "min_distance" : null,
+         "sounds" : [
+            {
+               "load_on_low_memory" : true,
+               "name" : "sounds/music/game/records/pigstep_master",
+               "stream" : true,
+               "volume" : 0.50
+            }
+         ]
+      },
+        "sound.alarm_light.alarm": {
+            "category": "music",
+         "max_distance" : 1024,
+         "min_distance" : null,
+            "sounds": [
+                {
+                    "name": "sounds/other/alarm",
+                    "load_on_low_memory": true
+                }
+            ]
+        },
+        "sound.alert.music": {
+            "category": "music",
+         "max_distance" : 1024,
+         "min_distance" : null,
+            "sounds": [
+                {
+                    "name": "sounds/other/alert",
+                    "load_on_low_memory": true
+                }
+            ]
+        },
+      "trial_spawner.break" : {
+         "category" : "block",
+         "max_distance" : null,
+         "min_distance" : null,
+         "sounds" : [
+            {
+               "name" : "sounds/block/trial_spawner/break1",
+               "pitch" : Math.random() * (1.05 - 0.96) + 0.96,
+               "volume" : 1.0
+            },
+            {
+               "name" : "sounds/block/trial_spawner/break2",
+               "pitch" : Math.random() * (1.05 - 0.96) + 0.96,
+               "volume" : 1.0
+            },
+            {
+               "name" : "sounds/block/trial_spawner/break3",
+               "pitch" : Math.random() * (1.05 - 0.96) + 0.96,
+               "volume" : 1.0
+            }
+         ]
+      },
+      "trial_spawner.place" : {
+         "category" : "block",
+         "max_distance" : null,
+         "min_distance" : null,
+         "sounds" : [
+            {
+               "name" : "sounds/block/trial_spawner/place1",
+               "pitch" : Math.random() * (1.05 - 0.96) + 0.96,
+               "volume" : 1.0
+            },
+            {
+               "name" : "sounds/block/trial_spawner/place2",
+               "pitch" : Math.random() * (1.05 - 0.96) + 0.96,
+               "volume" : 1.0
+            },
+            {
+               "name" : "sounds/block/trial_spawner/place3",
+               "pitch" : Math.random() * (1.05 - 0.96) + 0.96,
+               "volume" : 1.0
+            }
+         ]
+      },
+      "vault.break" : {
+         "category" : "block",
+         "max_distance" : null,
+         "min_distance" : null,
+         "sounds" : [
+            {
+               "name" : "sounds/block/vault/break1",
+               "pitch" : Math.random() * (1.05 - 0.96) + 0.96
+            },
+            {
+               "name" : "sounds/block/vault/break2",
+               "pitch" : Math.random() * (1.05 - 0.96) + 0.96
+            },
+            {
+               "name" : "sounds/block/vault/break3",
+               "pitch" : Math.random() * (1.05 - 0.96) + 0.96
+            },
+            {
+               "name" : "sounds/block/vault/break4",
+               "pitch" : Math.random() * (1.05 - 0.96) + 0.96
+            }
+         ]
+      },
+      "vault.place" : {
+         "category" : "block",
+         "max_distance" : null,
+         "min_distance" : null,
+         "sounds" : [
+            {
+               "name" : "sounds/block/vault/place1",
+               "pitch" : Math.random() * (1.05 - 0.96) + 0.96
+            },
+            {
+               "name" : "sounds/block/vault/place2",
+               "pitch" : Math.random() * (1.05 - 0.96) + 0.96
+            },
+            {
+               "name" : "sounds/block/vault/place3",
+               "pitch" : Math.random() * (1.05 - 0.96) + 0.96
+            },
+            {
+               "name" : "sounds/block/vault/place4",
+               "pitch" : Math.random() * (1.05 - 0.96) + 0.96
+            }
+         ]
+      },
+      "vault.reject_rewarded_player" : {
+         "__use_legacy_max_distance" : "true",
+         "category" : "block",
+         "max_distance" : null,
+         "min_distance" : null,
+         "sounds" : [
+            {
+               "name" : "sounds/block/vault/reject_rewarded_player"
+            }
+         ]
+      }
    }
 }
