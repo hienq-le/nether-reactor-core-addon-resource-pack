@@ -1,5 +1,5 @@
 {
-   "format_version" : "1.20.20",
+   "format_version" : "1.14.0",
    "sound_definitions" : {
 	"ambient.herobrine.appears": {
          "__use_legacy_max_distance" : "true",
@@ -105,78 +105,6 @@
 			}
 		]
 	},
-      "break.copper_bulb" : {
-         "category" : "block",
-         "max_distance" : null,
-         "min_distance" : null,
-         "sounds" : [
-            {
-               "name" : "sounds/block/copper_bulb/break1",
-		"pitch": "Math.random() * (1.21 - 0.8) + 0.8"
-            },
-            {
-               "name" : "sounds/block/copper_bulb/break2",
-		"pitch": "Math.random() * (1.21 - 0.8) + 0.8"
-            },
-            {
-               "name" : "sounds/block/copper_bulb/break3",
-		"pitch": "Math.random() * (1.21 - 0.8) + 0.8"
-            },
-            {
-               "name" : "sounds/block/copper_bulb/break4",
-		"pitch": "Math.random() * (1.21 - 0.8) + 0.8"
-            }
-         ]
-      },
-      "break.copper_grate" : {
-         "category" : "block",
-         "max_distance" : null,
-         "min_distance" : null,
-         "sounds" : [
-            {
-               "name" : "sounds/block/copper_grate/break1",
-		"pitch": "Math.random() * (1.21 - 0.8) + 0.8"
-            },
-            {
-               "name" : "sounds/block/copper_grate/break2",
-		"pitch": "Math.random() * (1.21 - 0.8) + 0.8"
-            },
-            {
-               "name" : "sounds/block/copper_grate/break3",
-		"pitch": "Math.random() * (1.21 - 0.8) + 0.8"
-            },
-            {
-               "name" : "sounds/block/copper_grate/break4",
-		"pitch": "Math.random() * (1.21 - 0.8) + 0.8"
-            }
-         ]
-      },
-      "crafter.craft" : {
-         "__use_legacy_max_distance" : "true",
-         "category" : "block",
-         "max_distance" : 5.0,
-         "min_distance" : null,
-         "sounds" : [
-            {
-               "name" : "sounds/block/crafter/craft",
-               "volume" : 1.0,
-		"pitch": "Math.random() * (1.05 - 0.96) + 0.96"
-            }
-         ]
-      },
-      "crafter.fail" : {
-         "__use_legacy_max_distance" : "true",
-         "category" : "block",
-         "max_distance" : 3,
-         "min_distance" : null,
-         "sounds" : [
-            {
-               "name" : "sounds/block/crafter/fail",
-               "volume" : 1.0,
-		"pitch": "Math.random() * (1.05 - 0.96) + 0.96"
-            }
-         ]
-      },
 	"drum.kick.edm_bell_1": {
          "__use_legacy_max_distance" : "true",
             "category": "music",
@@ -569,6 +497,20 @@
 			}
 		]
 	},
+	"drum.kick.edm_kick_1023": {
+         "__use_legacy_max_distance" : "true",
+            "category": "music",
+         "max_distance" : null,
+         "min_distance" : null,
+		"sounds": [
+			{
+				"load_on_low_memory" : true,
+				"name": "sounds/drum/kick/edm_kick_1023",
+				"volume": 1,
+				"pitch": 1
+			}
+		]
+	},
 	"drum.kick.edm_kick_1024": {
          "__use_legacy_max_distance" : "true",
             "category": "music",
@@ -583,37 +525,6 @@
 			}
 		]
 	},
-      "hit.copper_bulb" : {
-         "category" : "block",
-         "max_distance" : null,
-         "min_distance" : null,
-         "sounds" : [
-            {
-               "name" : "sounds/block/copper_bulb/step1",
-		"pitch": "Math.random() * (1.21 - 0.8) + 0.8"
-            },
-            {
-               "name" : "sounds/block/copper_bulb/step2",
-		"pitch": "Math.random() * (1.21 - 0.8) + 0.8"
-            },
-            {
-               "name" : "sounds/block/copper_bulb/step3",
-		"pitch": "Math.random() * (1.21 - 0.8) + 0.8"
-            },
-            {
-               "name" : "sounds/block/copper_bulb/step4",
-		"pitch": "Math.random() * (1.21 - 0.8) + 0.8"
-            },
-            {
-               "name" : "sounds/block/copper_bulb/step5",
-		"pitch": "Math.random() * (1.21 - 0.8) + 0.8"
-            },
-            {
-               "name" : "sounds/block/copper_bulb/step6",
-		"pitch": "Math.random() * (1.21 - 0.8) + 0.8"
-            }
-         ]
-      },
       "item.trident.hit" : {
          "__use_legacy_max_distance" : "true",
          "category" : "player",
@@ -1151,6 +1062,19 @@
             }
 	  ]
       },
+      "music.game.pale_garden" : {
+         "category" : "music",
+         "max_distance" : null,
+         "min_distance" : null,
+         "sounds" : [
+            {
+               "load_on_low_memory" : true,
+               "name" : "sounds/music/game/ancestry",
+               "stream" : true,
+               "volume" : 0.05
+            }
+         ]
+      },
       "music.game.trail_ruins" : {
          "__use_legacy_max_distance" : "true",
          "category" : "music",
@@ -1285,139 +1209,6 @@
                     "load_on_low_memory": true
                 }
             ]
-        },
-      "trial_spawner.break" : {
-         "category" : "block",
-         "max_distance" : null,
-         "min_distance" : null,
-         "sounds" : [
-            {
-               "name" : "sounds/block/trial_spawner/break1",
-               "pitch" : "Math.random() * (1.05 - 0.96) + 0.96",
-               "volume" : 1.0
-            },
-            {
-               "name" : "sounds/block/trial_spawner/break2",
-               "pitch" : "Math.random() * (1.05 - 0.96) + 0.96",
-               "volume" : 1.0
-            },
-            {
-               "name" : "sounds/block/trial_spawner/break3",
-               "pitch" : "Math.random() * (1.05 - 0.96) + 0.96",
-               "volume" : 1.0
-            }
-         ]
-      },
-      "trial_spawner.hit" : {
-         "category" : "block",
-         "max_distance" : null,
-         "min_distance" : null,
-         "sounds" : [
-            {
-               "name" : "sounds/block/trial_spawner/step1",
-               "pitch" : 1.0,
-               "volume" : 0.38
-            },
-            {
-               "name" : "sounds/block/trial_spawner/step2",
-               "pitch" : 1.0,
-               "volume" : 0.38
-            },
-            {
-               "name" : "sounds/block/trial_spawner/step3",
-               "pitch" : 1.0,
-               "volume" : 0.38
-            },
-            {
-               "name" : "sounds/block/trial_spawner/step4",
-               "pitch" : 1.0,
-               "volume" : 0.38
-            },
-            {
-               "name" : "sounds/block/trial_spawner/step5",
-               "pitch" : 1.0,
-               "volume" : 0.38
-            }
-         ]
-      },
-      "trial_spawner.place" : {
-         "category" : "block",
-         "max_distance" : null,
-         "min_distance" : null,
-         "sounds" : [
-            {
-               "name" : "sounds/block/trial_spawner/place1",
-               "pitch" : "Math.random() * (1.05 - 0.96) + 0.96",
-               "volume" : 1.0
-            },
-            {
-               "name" : "sounds/block/trial_spawner/place2",
-               "pitch" : "Math.random() * (1.05 - 0.96) + 0.96",
-               "volume" : 1.0
-            },
-            {
-               "name" : "sounds/block/trial_spawner/place3",
-               "pitch" : "Math.random() * (1.05 - 0.96) + 0.96",
-               "volume" : 1.0
-            }
-         ]
-      },
-      "vault.break" : {
-         "category" : "block",
-         "max_distance" : null,
-         "min_distance" : null,
-         "sounds" : [
-            {
-               "name" : "sounds/block/vault/break1",
-               "pitch" : "Math.random() * (1.05 - 0.96) + 0.96"
-            },
-            {
-               "name" : "sounds/block/vault/break2",
-               "pitch" : "Math.random() * (1.05 - 0.96) + 0.96"
-            },
-            {
-               "name" : "sounds/block/vault/break3",
-               "pitch" : "Math.random() * (1.05 - 0.96) + 0.96"
-            },
-            {
-               "name" : "sounds/block/vault/break4",
-               "pitch" : "Math.random() * (1.05 - 0.96) + 0.96"
-            }
-         ]
-      },
-      "vault.place" : {
-         "category" : "block",
-         "max_distance" : null,
-         "min_distance" : null,
-         "sounds" : [
-            {
-               "name" : "sounds/block/vault/place1",
-               "pitch" : "Math.random() * (1.05 - 0.96) + 0.96"
-            },
-            {
-               "name" : "sounds/block/vault/place2",
-               "pitch" : "Math.random() * (1.05 - 0.96) + 0.96"
-            },
-            {
-               "name" : "sounds/block/vault/place3",
-               "pitch" : "Math.random() * (1.05 - 0.96) + 0.96"
-            },
-            {
-               "name" : "sounds/block/vault/place4",
-               "pitch" : "Math.random() * (1.05 - 0.96) + 0.96"
-            }
-         ]
-      },
-      "vault.reject_rewarded_player" : {
-         "__use_legacy_max_distance" : "true",
-         "category" : "block",
-         "max_distance" : null,
-         "min_distance" : null,
-         "sounds" : [
-            {
-               "name" : "sounds/block/vault/reject_rewarded_player"
-            }
-         ]
-      }
+        }
    }
 }
