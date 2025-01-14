@@ -525,6 +525,20 @@
 			}
 		]
 	},
+	"drum.kick.edm_kick_1026": {
+         "__use_legacy_max_distance" : "true",
+            "category": "music",
+         "max_distance" : null,
+         "min_distance" : null,
+		"sounds": [
+			{
+				"load_on_low_memory" : true,
+				"name": "sounds/drum/kick/edm_kick_1026",
+				"volume": 1,
+				"pitch": 1
+			}
+		]
+	},
       "item.trident.hit" : {
          "__use_legacy_max_distance" : "true",
          "category" : "player",
