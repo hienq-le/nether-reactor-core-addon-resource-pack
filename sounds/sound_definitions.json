@@ -1,5 +1,5 @@
 {
-   "format_version" : "1.14.0",
+   "format_version" : "1.20.20",
    "sound_definitions" : {
 	"ambient.herobrine.appears": {
          "__use_legacy_max_distance" : "true",
@@ -698,6 +698,18 @@
          "max_distance" : null,
          "min_distance" : null,
          "sounds" : [ "sounds/item/trident/thunder1", "sounds/item/trident/thunder2" ]
+      },
+      "mob.blaze.shoot" : {
+         "__use_legacy_max_distance" : "false",
+         "category" : "hostile",
+         "max_distance" : 32,
+         "min_distance" : null,
+         "sounds" : [
+            {
+               "name" : "sounds/mob/ghast/fireball4",
+               "volume" : 3
+            }
+         ],
       },
       "mob.ghast.affectionate_scream" : {
          "__use_legacy_max_distance" : "true",
