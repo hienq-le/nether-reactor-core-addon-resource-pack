@@ -1,544 +1,19 @@
 {
    "format_version" : "1.20.20",
    "sound_definitions" : {
-	"ambient.herobrine.appears": {
+      "drum.kick.kidcore_kick" : {
          "__use_legacy_max_distance" : "true",
-         "category" : "hostile",
+         "category" : "music",
          "max_distance" : null,
          "min_distance" : null,
-		"sounds": [
-			{
-				"name": "sounds/ambient/herobrine/a1",
-				"volume": 1.25
-			},
-			{
-				"name": "sounds/ambient/herobrine/a2",
-				"volume": 1.25
-			},
-			{
-				"name": "sounds/ambient/herobrine/a3",
-				"volume": 1.25
-			},
-			{
-				"name": "sounds/ambient/herobrine/a4",
-				"volume": 1.25
-			},
-			{
-				"name": "sounds/ambient/herobrine/a5",
-				"volume": 1.25
-			},
-			{
-				"name": "sounds/ambient/herobrine/a6",
-				"volume": 1.25
-			},
-			{
-				"name": "sounds/ambient/herobrine/a7",
-				"volume": 1.25
-			},
-			{
-				"name": "sounds/ambient/herobrine/a8",
-				"volume": 1.25
-			},
-			{
-				"name": "sounds/ambient/herobrine/a9",
-				"volume": 1.25
-			},
-			{
-				"name": "sounds/ambient/herobrine/a10",
-				"volume": 1.25
-			},
-			{
-				"name": "sounds/ambient/herobrine/a11",
-				"volume": 1.25
-			},
-			{
-				"name": "sounds/ambient/herobrine/a12",
-				"volume": 1.25
-			},
-			{
-				"name": "sounds/ambient/herobrine/a13",
-				"volume": 1.35
-			},
-			{
-				"name": "sounds/ambient/herobrine/a14",
-				"volume": 1.35
-			},
-			{
-				"name": "sounds/ambient/herobrine/a15",
-				"volume": 1.5
-			}
-		]
-	},
-	"ambient.herobrine.jumpscare": {
-         "__use_legacy_max_distance" : "true",
-         "category" : "hostile",
-         "max_distance" : null,
-         "min_distance" : null,
-		"sounds": [
-			{
-				"name": "sounds/ambient/herobrine/a1",
-				"volume": 5.0
-			},
-			{
-				"name": "sounds/ambient/herobrine/a2",
-				"volume": 5.0
-			},
-			{
-				"name": "sounds/ambient/herobrine/a5",
-				"volume": 2.5
-			},
-			{
-				"name": "sounds/ambient/herobrine/a7",
-				"volume": 2.5
-			},
-			{
-				"name": "sounds/ambient/herobrine/a9",
-				"volume": 3.0
-			},
-			{
-				"name": "sounds/ambient/herobrine/a10",
-				"volume": 3.0
-			},
-			{
-				"name": "sounds/ambient/herobrine/a15",
-				"volume": 4.0
-			}
-		]
-	},
-	"drum.kick.edm_bell_1": {
-         "__use_legacy_max_distance" : "true",
-            "category": "music",
-         "max_distance" : null,
-         "min_distance" : null,
-		"sounds": [
-			{
-				"load_on_low_memory" : true,
-				"name": "sounds/drum/kick/edm_bell_1",
-				"volume": 1,
-				"pitch": 1
-			}
-		]
-	},
-	"drum.kick.edm_bell_2": {
-         "__use_legacy_max_distance" : "true",
-            "category": "music",
-         "max_distance" : null,
-         "min_distance" : null,
-		"sounds": [
-			{
-				"load_on_low_memory" : true,
-				"name": "sounds/drum/kick/edm_bell_2",
-				"volume": 1,
-				"pitch": 1
-			}
-		]
-	},
-	"drum.kick.edm_bell_3": {
-         "__use_legacy_max_distance" : "true",
-            "category": "music",
-         "max_distance" : null,
-         "min_distance" : null,
-		"sounds": [
-			{
-				"load_on_low_memory" : true,
-				"name": "sounds/drum/kick/edm_bell_3",
-				"volume": 1,
-				"pitch": 1
-			}
-		]
-	},
-	"drum.kick.edm_bell_4": {
-         "__use_legacy_max_distance" : "true",
-            "category": "music",
-         "max_distance" : null,
-         "min_distance" : null,
-		"sounds": [
-			{
-				"load_on_low_memory" : true,
-				"name": "sounds/drum/kick/edm_bell_4",
-				"volume": 1,
-				"pitch": 1
-			}
-		]
-	},
-	"drum.kick.edm_kick_11": {
-         "__use_legacy_max_distance" : "true",
-            "category": "music",
-         "max_distance" : null,
-         "min_distance" : null,
-		"sounds": [
-			{
-				"load_on_low_memory" : true,
-				"name": "sounds/drum/kick/edm_kick_11",
-				"volume": 1,
-				"pitch": 1
-			}
-		]
-	},
-	"drum.kick.edm_kick_13": {
-         "__use_legacy_max_distance" : "true",
-            "category": "music",
-         "max_distance" : null,
-         "min_distance" : null,
-		"sounds": [
-			{
-				"load_on_low_memory" : true,
-				"name": "sounds/drum/kick/edm_kick_13",
-				"volume": 1,
-				"pitch": 1
-			}
-		]
-	},
-	"drum.kick.edm_kick_16": {
-         "__use_legacy_max_distance" : "true",
-            "category": "music",
-         "max_distance" : null,
-         "min_distance" : null,
-		"sounds": [
-			{
-				"load_on_low_memory" : true,
-				"name": "sounds/drum/kick/edm_kick_16",
-				"volume": 1,
-				"pitch": 1
-			}
-		]
-	},
-	"drum.kick.edm_kick_20": {
-         "__use_legacy_max_distance" : "true",
-            "category": "music",
-         "max_distance" : null,
-         "min_distance" : null,
-		"sounds": [
-			{
-				"load_on_low_memory" : true,
-				"name": "sounds/drum/kick/edm_kick_20",
-				"volume": 1,
-				"pitch": 1
-			}
-		]
-	},
-	"drum.kick.edm_kick_22": {
-         "__use_legacy_max_distance" : "true",
-            "category": "music",
-         "max_distance" : null,
-         "min_distance" : null,
-		"sounds": [
-			{
-				"load_on_low_memory" : true,
-				"name": "sounds/drum/kick/edm_kick_22",
-				"volume": 1,
-				"pitch": 1
-			}
-		]
-	},
-	"drum.kick.edm_kick_30": {
-         "__use_legacy_max_distance" : "true",
-            "category": "music",
-         "max_distance" : null,
-         "min_distance" : null,
-		"sounds": [
-			{
-				"load_on_low_memory" : true,
-				"name": "sounds/drum/kick/edm_kick_30",
-				"volume": 1,
-				"pitch": 1
-			}
-		]
-	},
-	"drum.kick.edm_kick_32": {
-         "__use_legacy_max_distance" : "true",
-            "category": "music",
-         "max_distance" : null,
-         "min_distance" : null,
-		"sounds": [
-			{
-				"load_on_low_memory" : true,
-				"name": "sounds/drum/kick/edm_kick_32",
-				"volume": 1,
-				"pitch": 1
-			}
-		]
-	},
-	"drum.kick.edm_kick_33": {
-         "__use_legacy_max_distance" : "true",
-            "category": "music",
-         "max_distance" : null,
-         "min_distance" : null,
-		"sounds": [
-			{
-				"load_on_low_memory" : true,
-				"name": "sounds/drum/kick/edm_kick_33",
-				"volume": 1,
-				"pitch": 1
-			}
-		]
-	},
-	"drum.kick.edm_kick_35": {
-         "__use_legacy_max_distance" : "true",
-            "category": "music",
-         "max_distance" : null,
-         "min_distance" : null,
-		"sounds": [
-			{
-				"load_on_low_memory" : true,
-				"name": "sounds/drum/kick/edm_kick_35",
-				"volume": 1,
-				"pitch": 1
-			}
-		]
-	},
-	"drum.kick.edm_kick_36": {
-         "__use_legacy_max_distance" : "true",
-            "category": "music",
-         "max_distance" : null,
-         "min_distance" : null,
-		"sounds": [
-			{
-				"load_on_low_memory" : true,
-				"name": "sounds/drum/kick/edm_kick_36",
-				"volume": 1,
-				"pitch": 1
-			}
-		]
-	},
-	"drum.kick.edm_kick_64": {
-         "__use_legacy_max_distance" : "true",
-            "category": "music",
-         "max_distance" : null,
-         "min_distance" : null,
-		"sounds": [
-			{
-				"load_on_low_memory" : true,
-				"name": "sounds/drum/kick/edm_kick_64",
-				"volume": 1,
-				"pitch": 1
-			}
-		]
-	},
-	"drum.kick.edm_kick_126": {
-         "__use_legacy_max_distance" : "true",
-            "category": "music",
-         "max_distance" : null,
-         "min_distance" : null,
-		"sounds": [
-			{
-				"load_on_low_memory" : true,
-				"name": "sounds/drum/kick/edm_kick_126",
-				"volume": 1,
-				"pitch": 1
-			}
-		]
-	},
-	"drum.kick.edm_kick_127": {
-         "__use_legacy_max_distance" : "true",
-            "category": "music",
-         "max_distance" : null,
-         "min_distance" : null,
-		"sounds": [
-			{
-				"load_on_low_memory" : true,
-				"name": "sounds/drum/kick/edm_kick_127",
-				"volume": 1,
-				"pitch": 1
-			}
-		]
-	},
-	"drum.kick.edm_kick_128": {
-         "__use_legacy_max_distance" : "true",
-            "category": "music",
-         "max_distance" : null,
-         "min_distance" : null,
-		"sounds": [
-			{
-				"load_on_low_memory" : true,
-				"name": "sounds/drum/kick/edm_kick_128",
-				"volume": 1,
-				"pitch": 1
-			}
-		]
-	},
-	"drum.kick.edm_kick_129": {
-         "__use_legacy_max_distance" : "true",
-            "category": "music",
-         "max_distance" : null,
-         "min_distance" : null,
-		"sounds": [
-			{
-				"load_on_low_memory" : true,
-				"name": "sounds/drum/kick/edm_kick_129",
-				"volume": 1,
-				"pitch": 1
-			}
-		]
-	},
-	"drum.kick.edm_kick_130": {
-         "__use_legacy_max_distance" : "true",
-            "category": "music",
-         "max_distance" : null,
-         "min_distance" : null,
-		"sounds": [
-			{
-				"load_on_low_memory" : true,
-				"name": "sounds/drum/kick/edm_kick_130",
-				"volume": 1,
-				"pitch": 1
-			}
-		]
-	},
-	"drum.kick.edm_kick_131": {
-         "__use_legacy_max_distance" : "true",
-            "category": "music",
-         "max_distance" : null,
-         "min_distance" : null,
-		"sounds": [
-			{
-				"load_on_low_memory" : true,
-				"name": "sounds/drum/kick/edm_kick_131",
-				"volume": 1,
-				"pitch": 1
-			}
-		]
-	},
-	"drum.kick.edm_kick_132": {
-         "__use_legacy_max_distance" : "true",
-            "category": "music",
-         "max_distance" : null,
-         "min_distance" : null,
-		"sounds": [
-			{
-				"load_on_low_memory" : true,
-				"name": "sounds/drum/kick/edm_kick_132",
-				"volume": 1,
-				"pitch": 1
-			}
-		]
-	},
-	"drum.kick.edm_kick_192": {
-         "__use_legacy_max_distance" : "true",
-            "category": "music",
-         "max_distance" : null,
-         "min_distance" : null,
-		"sounds": [
-			{
-				"load_on_low_memory" : true,
-				"name": "sounds/drum/kick/edm_kick_192",
-				"volume": 1,
-				"pitch": 1
-			}
-		]
-	},
-	"drum.kick.edm_kick_256": {
-         "__use_legacy_max_distance" : "true",
-            "category": "music",
-         "max_distance" : null,
-         "min_distance" : null,
-		"sounds": [
-			{
-				"load_on_low_memory" : true,
-				"name": "sounds/drum/kick/edm_kick_256",
-				"volume": 1,
-				"pitch": 1
-			}
-		]
-	},
-	"drum.kick.edm_kick_510": {
-         "__use_legacy_max_distance" : "true",
-            "category": "music",
-         "max_distance" : null,
-         "min_distance" : null,
-		"sounds": [
-			{
-				"load_on_low_memory" : true,
-				"name": "sounds/drum/kick/edm_kick_510",
-				"volume": 1,
-				"pitch": 1
-			}
-		]
-	},
-	"drum.kick.edm_kick_511": {
-         "__use_legacy_max_distance" : "true",
-            "category": "music",
-         "max_distance" : null,
-         "min_distance" : null,
-		"sounds": [
-			{
-				"load_on_low_memory" : true,
-				"name": "sounds/drum/kick/edm_kick_511",
-				"volume": 1,
-				"pitch": 1
-			}
-		]
-	},
-	"drum.kick.edm_kick_512": {
-         "__use_legacy_max_distance" : "true",
-            "category": "music",
-         "max_distance" : null,
-         "min_distance" : null,
-		"sounds": [
-			{
-				"load_on_low_memory" : true,
-				"name": "sounds/drum/kick/edm_kick_512",
-				"volume": 1,
-				"pitch": 1
-			}
-		]
-	},
-	"drum.kick.edm_kick_513": {
-         "__use_legacy_max_distance" : "true",
-            "category": "music",
-         "max_distance" : null,
-         "min_distance" : null,
-		"sounds": [
-			{
-				"load_on_low_memory" : true,
-				"name": "sounds/drum/kick/edm_kick_513",
-				"volume": 1,
-				"pitch": 1
-			}
-		]
-	},
-	"drum.kick.edm_kick_1023": {
-         "__use_legacy_max_distance" : "true",
-            "category": "music",
-         "max_distance" : null,
-         "min_distance" : null,
-		"sounds": [
-			{
-				"load_on_low_memory" : true,
-				"name": "sounds/drum/kick/edm_kick_1023",
-				"volume": 1,
-				"pitch": 1
-			}
-		]
-	},
-	"drum.kick.edm_kick_1024": {
-         "__use_legacy_max_distance" : "true",
-            "category": "music",
-         "max_distance" : null,
-         "min_distance" : null,
-		"sounds": [
-			{
-				"load_on_low_memory" : true,
-				"name": "sounds/drum/kick/edm_kick_1024",
-				"volume": 1,
-				"pitch": 1
-			}
-		]
-	},
-	"drum.kick.edm_kick_1026": {
-         "__use_legacy_max_distance" : "true",
-            "category": "music",
-         "max_distance" : null,
-         "min_distance" : null,
-		"sounds": [
-			{
-				"load_on_low_memory" : true,
-				"name": "sounds/drum/kick/edm_kick_1026",
-				"volume": 1,
-				"pitch": 1
-			}
-		]
-	},
+         "sounds" :
+            {
+               "load_on_low_memory" : true,
+               "name" : "sounds/drum/kick/kidcore_kick",
+               "stream" : true,
+               "volume" : 1
+            }
+      },
       "item.trident.hit" : {
          "__use_legacy_max_distance" : "true",
          "category" : "player",
@@ -1016,33 +491,27 @@
             },
             {
                "load_on_low_memory" : true,
-               "name" : "sounds/music/game/komorebi",
-               "stream" : true,
-               "volume" : 0.80
-            },
-            {
-               "load_on_low_memory" : true,
-               "name" : "sounds/music/game/pokopoko",
+               "name" : "sounds/music/game/below_and_above",
                "stream" : true,
                "volume" : 0.60
             },
             {
                "load_on_low_memory" : true,
-               "name" : "sounds/music/game/puzzlebox",
+               "name" : "sounds/music/game/brokwn_clocks",
                "stream" : true,
-               "volume" : 0.40
+               "volume" : 0.60
             },
             {
                "load_on_low_memory" : true,
-               "name" : "sounds/music/game/watcher",
+               "name" : "sounds/music/game/fireflies",
                "stream" : true,
-               "volume" : 0.40
+               "volume" : 0.60
             },
             {
                "load_on_low_memory" : true,
-               "name" : "sounds/music/game/yakusoku",
+               "name" : "sounds/music/game/lilypad",
                "stream" : true,
-               "volume" : 0.80
+               "volume" : 0.60
             }
          ]
       },
@@ -1214,27 +683,18 @@
             }
          ]
       },
-        "sound.alarm_light.alarm": {
-            "category": "music",
-         "max_distance" : 1024,
+      "music.rhythm.down_with_vinahouse" : {
+         "__use_legacy_max_distance" : "true",
+         "category" : "music",
+         "max_distance" : null,
          "min_distance" : null,
-            "sounds": [
-                {
-                    "name": "sounds/other/alarm",
-                    "load_on_low_memory": true
-                }
-            ]
-        },
-        "sound.alert.music": {
-            "category": "music",
-         "max_distance" : 1024,
-         "min_distance" : null,
-            "sounds": [
-                {
-                    "name": "sounds/other/alert",
-                    "load_on_low_memory": true
-                }
-            ]
-        }
+         "sounds" :
+            {
+               "load_on_low_memory" : true,
+               "name" : "sounds/music/rhythm/down_with_vinahouse",
+               "stream" : true,
+               "volume" : 1
+            }
+      }
    }
 }
