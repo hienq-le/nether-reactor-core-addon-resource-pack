@@ -557,19 +557,6 @@
             }
 	  ]
       },
-      "music.game.pale_garden" : {
-         "category" : "music",
-         "max_distance" : null,
-         "min_distance" : null,
-         "sounds" : [
-            {
-               "load_on_low_memory" : true,
-               "name" : "sounds/music/game/ancestry",
-               "stream" : true,
-               "volume" : 0.05
-            }
-         ]
-      },
       "music.game.trail_ruins" : {
          "__use_legacy_max_distance" : "true",
          "category" : "music",
